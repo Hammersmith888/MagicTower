@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aff931ec4b05c043b194e4aa12ac291, type: 3}
+  m_Name: EndlessModeLoaderConfig
+  m_EditorClassIdentifier: 
+  enemyGroupClasses:
+  - enemyGroupType: 1
+    powerToEnable: 0
+    powerToDisable: 8000
+    enemies:
+    - enemyType: 0
+      power: 100
+    - enemyType: 1
+      power: 160
+    - enemyType: 2
+      power: 400
+    - enemyType: 3
+      power: 1500
+    - enemyType: 4
+      power: 300
+    - enemyType: 5
+      power: 220
+    - enemyType: 6
+      power: 105
+    - enemyType: 29
+      power: 400
+  - enemyGroupType: 2
+    powerToEnable: 500
+    powerToDisable: 13000
+    enemies:
+    - enemyType: 7
+      power: 200
+    - enemyType: 8
+      power: 250
+    - enemyType: 9
+      power: 3000
+    - enemyType: 10
+      power: 400
+    - enemyType: 11
+      power: 350
+    - enemyType: 14
+      power: 500
+    - enemyType: 30
+      power: 700
+    - enemyType: 31
+      power: 800
+  - enemyGroupType: 3
+    powerToEnable: 900
+    powerToDisable: 15000
+    enemies:
+    - enemyType: 16
+      power: 300
+    - enemyType: 22
+      power: 400
+    - enemyType: 23
+      power: 4000
+    - enemyType: 24
+      power: 350
+    - enemyType: 25
+      power: 600
+  - enemyGroupType: 4
+    powerToEnable: 1200
+    powerToDisable: 19800
+    enemies:
+    - enemyType: 17
+      power: 120
+    - enemyType: 19
+      power: 6000
+    - enemyType: 20
+      power: 1000
+    - enemyType: 21
+      power: 700
+  - enemyGroupType: 0
+    powerToEnable: 6000
+    powerToDisable: 20000
+    enemies:
+    - enemyType: 26
+      power: 5000
+  gemDrops:
+  - powerToDrop: 1000
+    gemDrops:
+    - chance: 5
+      gem:
+        type: 0
+        gemLevel: 0
+    - chance: 5
+      gem:
+        type: 1
+        gemLevel: 0
+    - chance: 5
+      gem:
+        type: 2
+        gemLevel: 0
+    - chance: 5
+      gem:
+        type: 3
+        gemLevel: 0
+  - powerToDrop: 5000
+    gemDrops:
+    - chance: 5
+      gem:
+        type: 0
+        gemLevel: 1
+    - chance: 5
+      gem:
+        type: 1
+        gemLevel: 1
+    - chance: 5
+      gem:
+        type: 2
+        gemLevel: 1
+    - chance: 5
+      gem:
+        type: 3
+        gemLevel: 1
+  casketDrops:
+  - powerToDrop: 2000
+    casketDrops:
+    - content_id: 17
+      chance_id: 10
+    - content_id: 14
+      chance_id: 7
+    - content_id: 15
+      chance_id: 7
+    - content_id: 2
+      chance_id: 5
+  - powerToDrop: 10000
+    casketDrops:
+    - content_id: 17
+      chance_id: 10
+    - content_id: 16
+      chance_id: 2
+    - content_id: 14
+      chance_id: 7
+    - content_id: 15
+      chance_id: 7
+    - content_id: 2
+      chance_id: 5
+  endlessCustomLevels:
+  - powerToLevelSet: 0
+    levelNumber: 4
+  - powerToLevelSet: 0
+    levelNumber: 17
+  - powerToLevelSet: 0
+    levelNumber: 50
+  - powerToLevelSet: 0
+    levelNumber: 80
+  defaultLevelViewLength: 180

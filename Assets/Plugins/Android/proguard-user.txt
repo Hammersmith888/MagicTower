@@ -1,0 +1,75 @@
+-keep class com.devtodev.** { *; }
+-dontwarn com.devtodev.**
+
+-keep class com.kidoz.** { *; }
+
+-keep class com.vasilij.** { *; }
+
+-keep class com.gameanalytics.sdk { *; }
+-keep class com.gameanalytics.sdk.** { *; }
+ 
+-keep class com.gameanalytics.sdk.GAPlatform { *; }
+-keep class com.gameanalytics.sdk.GAPlatform.** { *; }
+-keep class android.net.ConnectivityManager.** { *; }
+-keep class com.google.android.instantapps.InstantApps { *; }
+-keepclassmembers class com.google.android.instantapps.InstantApps { *; }
+
+-keep class com.tapjoy.** { *; }
+-keep class com.moat.** { *; }
+-keepattributes JavascriptInterface
+-keepattributes *Annotation*
+-keep class * extends java.util.ListResourceBundle {
+protected Object[][] getContents();
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+@com.google.android.gms.common.annotation.KeepName *;
+}
+-keepnames class * implements android.os.Parcelable {
+public static final ** CREATOR;
+}
+-keep class com.google.android.gms.ads.identifier.** { *; }
+-dontwarn com.tapjoy.**
+
+-keep class com.google.unity.** { *; }
+
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.games.bridge.** { *; }
+
+-keep class com.facebook.** { *; }
+
+-keep class com.unity.** { * ;}
+-keep class com.unity.androidnotifications.* { * ;}
+-keepclassmembers class com.unity.androidnotifications.* { * ;}
+-keepnames class com.unity.androidnotifications.* { * ;}
+-keepclassmembernames class com.unity.androidnotifications.* { * ;}
+
+-keep class com.appodeal.** { *; }
+
+-keep public class com.google.android.gms.ads.**{
+   public *;
+}
+-keep public class com.google.ads.**{
+   public *;
+}
+
+-keep class com.google.* {*;}
+-keep class com.google.impl.* {*;}
+-keep class com.google.firebase.* {*;}
+-keep class com.google.googlesignin.** { *; }
+-keepnames class com.google.googlesignin.* { *; }
+-keep class com.google.gms.** {*;}
+-keep class com.google.android.gms.auth.** { *; }
+-keep class com.google.android.* {*;}
+-keep class com.google.unity.* {*;}
+
+-keep class co.megacool.** { *; }
+-keep class co.megacool.megacool.** { *; }
+-keep class com.akpublish.** { *; }
+
+-keep class androidx.** {*;}
+-keep interface androidx.** { *; }
+-keep class androidx.core.app.CoreComponentFactory { *; }

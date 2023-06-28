@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 5577b7df4dec6b54c9b58a7bd3e562cb
+timeCreated: 1518174763
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: sh_arrow1
+    100002: sh_arrow2
+    100004: sh_arrow3
+    100006: sh_Chunk_1
+    100008: sh_Chunk_10
+    100010: sh_Chunk_2
+    100012: sh_Chunk_3
+    100014: sh_Chunk_4
+    100016: sh_Chunk_5
+    100018: sh_Chunk_6
+    100020: sh_Chunk_7
+    100022: sh_Chunk_8
+    100024: sh_Chunk_9
+    100026: sh_handle1
+    100028: 'sh_handle1 '
+    100030: //RootNode
+    400000: sh_arrow1
+    400002: sh_arrow2
+    400004: sh_arrow3
+    400006: sh_Chunk_1
+    400008: sh_Chunk_10
+    400010: sh_Chunk_2
+    400012: sh_Chunk_3
+    400014: sh_Chunk_4
+    400016: sh_Chunk_5
+    400018: sh_Chunk_6
+    400020: sh_Chunk_7
+    400022: sh_Chunk_8
+    400024: sh_Chunk_9
+    400026: sh_handle1
+    400028: 'sh_handle1 '
+    400030: //RootNode
+    2100000: skeleton
+    2300000: sh_arrow1
+    2300002: sh_arrow2
+    2300004: sh_arrow3
+    2300006: sh_Chunk_1
+    2300008: sh_Chunk_10
+    2300010: sh_Chunk_2
+    2300012: sh_Chunk_3
+    2300014: sh_Chunk_4
+    2300016: sh_Chunk_5
+    2300018: sh_Chunk_6
+    2300020: sh_Chunk_7
+    2300022: sh_Chunk_8
+    2300024: sh_Chunk_9
+    2300026: sh_handle1
+    2300028: 'sh_handle1 '
+    3300000: sh_arrow1
+    3300002: sh_arrow2
+    3300004: sh_arrow3
+    3300006: sh_Chunk_1
+    3300008: sh_Chunk_10
+    3300010: sh_Chunk_2
+    3300012: sh_Chunk_3
+    3300014: sh_Chunk_4
+    3300016: sh_Chunk_5
+    3300018: sh_Chunk_6
+    3300020: sh_Chunk_7
+    3300022: sh_Chunk_8
+    3300024: sh_Chunk_9
+    3300026: sh_handle1
+    3300028: 'sh_handle1 '
+    4300000: sh_arrow1
+    4300002: sh_Chunk_1
+    4300004: sh_Chunk_2
+    4300006: sh_Chunk_3
+    4300008: sh_Chunk_4
+    4300010: sh_Chunk_5
+    4300012: sh_Chunk_6
+    4300014: sh_Chunk_7
+    4300016: sh_Chunk_8
+    4300018: sh_Chunk_9
+    4300020: sh_Chunk_10
+    4300022: sh_handle1
+    4300024: 'sh_handle1 '
+    4300026: sh_arrow2
+    4300028: sh_arrow3
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 50
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

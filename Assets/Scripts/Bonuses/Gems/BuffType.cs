@@ -1,0 +1,24 @@
+﻿public enum BuffType
+{
+	spellDamage,
+	manaRegeneration,
+	gemSlot,
+	fireDamage,
+	burnTime,
+	additionalHealth,
+	iceDamage,
+	frozenTime,
+	earthDamage,
+	earthedTime,
+	healthRegeneration,
+	electroDamage,
+	electrizedTime,
+	electroSpellCooldown,
+	additionalGold,
+	chestDropChance,
+	gemDropChance,
+	criticalDamage,
+	manaLimit,
+	criticalChance,
+	none
+}

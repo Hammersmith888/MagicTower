@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d22fe6c62d7794ba49394081fa2678, type: 3}
+  m_Name: GemsLoaderConfig
+  m_EditorClassIdentifier: 
+  defaultGemTexture: Gems/r01
+  gemTextures:
+  - gemType: 0
+    gemTextures:
+    - textureName: Gems/r01
+      gem:
+        type: 0
+        gemLevel: 0
+    - textureName: Gems/r02
+      gem:
+        type: 0
+        gemLevel: 1
+    - textureName: Gems/r03
+      gem:
+        type: 0
+        gemLevel: 2
+    - textureName: Gems/r04
+      gem:
+        type: 0
+        gemLevel: 3
+    - textureName: Gems/r05
+      gem:
+        type: 0
+        gemLevel: 4
+    - textureName: Gems/r06
+      gem:
+        type: 0
+        gemLevel: 5
+    - textureName: Gems/r07
+      gem:
+        type: 0
+        gemLevel: 6
+    - textureName: Gems/r08
+      gem:
+        type: 0
+        gemLevel: 7
+    - textureName: Gems/r09
+      gem:
+        type: 0
+        gemLevel: 8
+    - textureName: Gems/r10
+      gem:
+        type: 0
+        gemLevel: 9
+  - gemType: 1
+    gemTextures:
+    - textureName: Gems/b01
+      gem:
+        type: 1
+        gemLevel: 0
+    - textureName: Gems/b02
+      gem:
+        type: 1
+        gemLevel: 1
+    - textureName: Gems/b03
+      gem:
+        type: 1
+        gemLevel: 2
+    - textureName: Gems/b04
+      gem:
+        type: 1
+        gemLevel: 3
+    - textureName: Gems/b05
+      gem:
+        type: 1
+        gemLevel: 4
+    - textureName: Gems/b06
+      gem:
+        type: 1
+        gemLevel: 5
+    - textureName: Gems/b07
+      gem:
+        type: 1
+        gemLevel: 6
+    - textureName: Gems/b08
+      gem:
+        type: 1
+        gemLevel: 7
+    - textureName: Gems/b09
+      gem:
+        type: 1
+        gemLevel: 8
+    - textureName: Gems/b10
+      gem:
+        type: 1
+        gemLevel: 9
+  - gemType: 2
+    gemTextures:
+    - textureName: Gems/w01
+      gem:
+        type: 2
+        gemLevel: 0
+    - textureName: Gems/w02
+      gem:
+        type: 2
+        gemLevel: 1
+    - textureName: Gems/w03
+      gem:
+        type: 2
+        gemLevel: 2
+    - textureName: Gems/w04
+      gem:
+        type: 2
+        gemLevel: 3
+    - textureName: Gems/w05
+      gem:
+        type: 2
+        gemLevel: 4
+    - textureName: Gems/w06
+      gem:
+        type: 2
+        gemLevel: 5
+    - textureName: Gems/w07
+      gem:
+        type: 2
+        gemLevel: 6
+    - textureName: Gems/w08
+      gem:
+        type: 2
+        gemLevel: 7
+    - textureName: Gems/w09
+      gem:
+        type: 2
+        gemLevel: 8
+    - textureName: Gems/w10
+      gem:
+        type: 2
+        gemLevel: 9
+  - gemType: 3
+    gemTextures:
+    - textureName: Gems/y01
+      gem:
+        type: 3
+        gemLevel: 0
+    - textureName: Gems/y02
+      gem:
+        type: 3
+        gemLevel: 1
+    - textureName: Gems/y03
+      gem:
+        type: 3
+        gemLevel: 2
+    - textureName: Gems/y04
+      gem:
+        type: 3
+        gemLevel: 3
+    - textureName: Gems/y05
+      gem:
+        type: 3
+        gemLevel: 4
+    - textureName: Gems/y06
+      gem:
+        type: 3
+        gemLevel: 5
+    - textureName: Gems/y07
+      gem:
+        type: 3
+        gemLevel: 6
+    - textureName: Gems/y08
+      gem:
+        type: 3
+        gemLevel: 7
+    - textureName: Gems/y09
+      gem:
+        type: 3
+        gemLevel: 8
+    - textureName: Gems/y10
+      gem:
+        type: 3
+        gemLevel: 9
+  defaultBuffTexture: Gems/Buffs/AddHealth
+  buffTextures:
+  - textureName: Gems/Buffs/AllDamageMagic
+    buff: 0
+  - textureName: Gems/Buffs/RegenMana
+    buff: 1
+  - textureName: Gems/Buffs/AddSlotStone
+    buff: 2
+  - textureName: Gems/Buffs/FireDamage
+    buff: 3
+  - textureName: Gems/Buffs/DamageFire_road
+    buff: 4
+  - textureName: Gems/Buffs/AddHealth
+    buff: 5
+  - textureName: Gems/Buffs/IceDamage
+    buff: 6
+  - textureName: Gems/Buffs/DamageIce_road
+    buff: 7
+  - textureName: Gems/Buffs/DamageEarth
+    buff: 8
+  - textureName: Gems/Buffs/DamageEarth_road
+    buff: 9
+  - textureName: Gems/Buffs/RegenHealth
+    buff: 10
+  - textureName: Gems/Buffs/DamageLight
+    buff: 11
+  - textureName: Gems/Buffs/DamageLight_road
+    buff: 12
+  - textureName: Gems/Buffs/SpeedRegenLight
+    buff: 13
+  - textureName: Gems/Buffs/MoreGold
+    buff: 14
+  - textureName: Gems/Buffs/DropChest
+    buff: 15
+  - textureName: Gems/Buffs/DropDiamond
+    buff: 16
+  - textureName: Gems/Buffs/CriticalDamage
+    buff: 17
+  - textureName: Gems/Buffs/Knowledge
+    buff: 18
+  - textureName: Gems/Buffs/ChanceCriticalDamage
+    buff: 19
+  - textureName: Gems/Buffs/emptySlot
+    buff: 20
+  buffDescriptions:
+  - stringId: t_0325
+    buff: 0
+  - stringId: t_0326
+    buff: 1
+  - stringId: t_0327
+    buff: 2
+  - stringId: t_0328
+    buff: 3
+  - stringId: t_0329
+    buff: 4
+  - stringId: t_0330
+    buff: 5
+  - stringId: t_0331
+    buff: 6
+  - stringId: t_0332
+    buff: 7
+  - stringId: t_0333
+    buff: 8
+  - stringId: t_0334
+    buff: 9
+  - stringId: t_0335
+    buff: 10
+  - stringId: t_0336
+    buff: 11
+  - stringId: t_0337
+    buff: 12
+  - stringId: t_0338
+    buff: 13
+  - stringId: t_0343
+    buff: 14
+  - stringId: t_0340
+    buff: 15
+  - stringId: t_0339
+    buff: 16
+  - stringId: t_0341
+    buff: 17
+  - stringId: t_0342
+    buff: 18
+  - stringId: t_0344
+    buff: 19
+  - stringId: t_0368
+    buff: 20

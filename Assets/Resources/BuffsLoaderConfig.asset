@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a351eb0e13fe8904db777f9e11923b10, type: 3}
+  m_Name: BuffsLoaderConfig
+  m_EditorClassIdentifier: 
+  defaultBuff:
+    buffType: 20
+    buffValue: 0
+  capeBuffs:
+  - usedGem:
+      type: 0
+      gemLevel: 0
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 1
+  - usedGem:
+      type: 0
+      gemLevel: 1
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 2
+  - usedGem:
+      type: 0
+      gemLevel: 2
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 3
+  - usedGem:
+      type: 0
+      gemLevel: 3
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 4
+  - usedGem:
+      type: 0
+      gemLevel: 4
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 5
+  - usedGem:
+      type: 0
+      gemLevel: 5
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 6
+  - usedGem:
+      type: 0
+      gemLevel: 6
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 7
+  - usedGem:
+      type: 0
+      gemLevel: 7
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 8
+  - usedGem:
+      type: 0
+      gemLevel: 8
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 9
+  - usedGem:
+      type: 0
+      gemLevel: 9
+    usedWear: 0
+    buff:
+      buffType: 16
+      buffValue: 10
+  - usedGem:
+      type: 1
+      gemLevel: 0
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 3
+  - usedGem:
+      type: 1
+      gemLevel: 1
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 6
+  - usedGem:
+      type: 1
+      gemLevel: 2
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 12
+  - usedGem:
+      type: 1
+      gemLevel: 3
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 18
+  - usedGem:
+      type: 1
+      gemLevel: 4
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 30
+  - usedGem:
+      type: 1
+      gemLevel: 5
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 42
+  - usedGem:
+      type: 1
+      gemLevel: 6
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 60
+  - usedGem:
+      type: 1
+      gemLevel: 7
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 78
+  - usedGem:
+      type: 1
+      gemLevel: 8
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 102
+  - usedGem:
+      type: 1
+      gemLevel: 9
+    usedWear: 0
+    buff:
+      buffType: 17
+      buffValue: 126
+  - usedGem:
+      type: 2
+      gemLevel: 0
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 1
+  - usedGem:
+      type: 2
+      gemLevel: 1
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 2
+  - usedGem:
+      type: 2
+      gemLevel: 2
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 4
+  - usedGem:
+      type: 2
+      gemLevel: 3
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 8
+  - usedGem:
+      type: 2
+      gemLevel: 4
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 12
+  - usedGem:
+      type: 2
+      gemLevel: 5
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 16
+  - usedGem:
+      type: 2
+      gemLevel: 6
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 20
+  - usedGem:
+      type: 2
+      gemLevel: 7
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 26
+  - usedGem:
+      type: 2
+      gemLevel: 8
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 32
+  - usedGem:
+      type: 2
+      gemLevel: 9
+    usedWear: 0
+    buff:
+      buffType: 14
+      buffValue: 40
+  - usedGem:
+      type: 3
+      gemLevel: 0
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 5
+  - usedGem:
+      type: 3
+      gemLevel: 1
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 10
+  - usedGem:
+      type: 3
+      gemLevel: 2
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 15
+  - usedGem:
+      type: 3
+      gemLevel: 3
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 20
+  - usedGem:
+      type: 3
+      gemLevel: 4
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 25
+  - usedGem:
+      type: 3
+      gemLevel: 5
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 30
+  - usedGem:
+      type: 3
+      gemLevel: 6
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 35
+  - usedGem:
+      type: 3
+      gemLevel: 7
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 40
+  - usedGem:
+      type: 3
+      gemLevel: 8
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 45
+  - usedGem:
+      type: 3
+      gemLevel: 9
+    usedWear: 0
+    buff:
+      buffType: 5
+      buffValue: 50
+  staffBuffs:
+  - usedGem:
+      type: 0
+      gemLevel: 0
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 1
+  - usedGem:
+      type: 0
+      gemLevel: 1
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 2
+  - usedGem:
+      type: 0
+      gemLevel: 2
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 4
+  - usedGem:
+      type: 0
+      gemLevel: 3
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 6
+  - usedGem:
+      type: 0
+      gemLevel: 4
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 9
+  - usedGem:
+      type: 0
+      gemLevel: 5
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 12
+  - usedGem:
+      type: 0
+      gemLevel: 6
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 16
+  - usedGem:
+      type: 0
+      gemLevel: 7
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 20
+  - usedGem:
+      type: 0
+      gemLevel: 8
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 25
+  - usedGem:
+      type: 0
+      gemLevel: 9
+    usedWear: 1
+    buff:
+      buffType: 0
+      buffValue: 30
+  - usedGem:
+      type: 1
+      gemLevel: 0
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 1
+  - usedGem:
+      type: 1
+      gemLevel: 1
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 2
+  - usedGem:
+      type: 1
+      gemLevel: 2
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 4
+  - usedGem:
+      type: 1
+      gemLevel: 3
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 7
+  - usedGem:
+      type: 1
+      gemLevel: 4
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 10
+  - usedGem:
+      type: 1
+      gemLevel: 5
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 13
+  - usedGem:
+      type: 1
+      gemLevel: 6
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 16
+  - usedGem:
+      type: 1
+      gemLevel: 7
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 19
+  - usedGem:
+      type: 1
+      gemLevel: 8
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 22
+  - usedGem:
+      type: 1
+      gemLevel: 9
+    usedWear: 1
+    buff:
+      buffType: 1
+      buffValue: 25
+  - usedGem:
+      type: 2
+      gemLevel: 0
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 1
+  - usedGem:
+      type: 2
+      gemLevel: 1
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 2
+  - usedGem:
+      type: 2
+      gemLevel: 2
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 4
+  - usedGem:
+      type: 2
+      gemLevel: 3
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 8
+  - usedGem:
+      type: 2
+      gemLevel: 4
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 12
+  - usedGem:
+      type: 2
+      gemLevel: 5
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 18
+  - usedGem:
+      type: 2
+      gemLevel: 6
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 22
+  - usedGem:
+      type: 2
+      gemLevel: 7
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 28
+  - usedGem:
+      type: 2
+      gemLevel: 8
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 32
+  - usedGem:
+      type: 2
+      gemLevel: 9
+    usedWear: 1
+    buff:
+      buffType: 18
+      buffValue: 38
+  - usedGem:
+      type: 3
+      gemLevel: 0
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 1
+  - usedGem:
+      type: 3
+      gemLevel: 1
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 2
+  - usedGem:
+      type: 3
+      gemLevel: 2
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 3
+  - usedGem:
+      type: 3
+      gemLevel: 3
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 4
+  - usedGem:
+      type: 3
+      gemLevel: 4
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 5
+  - usedGem:
+      type: 3
+      gemLevel: 5
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 6
+  - usedGem:
+      type: 3
+      gemLevel: 6
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 7
+  - usedGem:
+      type: 3
+      gemLevel: 7
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 8
+  - usedGem:
+      type: 3
+      gemLevel: 8
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 9
+  - usedGem:
+      type: 3
+      gemLevel: 9
+    usedWear: 1
+    buff:
+      buffType: 19
+      buffValue: 10

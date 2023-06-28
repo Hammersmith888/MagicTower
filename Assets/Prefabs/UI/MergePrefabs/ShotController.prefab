@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1573207648413128}
+  m_IsPrefabParent: 1
+--- !u!1 &1494813058105960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4101083562417766}
+  - component: {fileID: 61818430722638962}
+  - component: {fileID: 114771421335089208}
+  m_Layer: 0
+  m_Name: ShotBoundaries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1573207648413128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4087696318497520}
+  - component: {fileID: 114769558004193228}
+  - component: {fileID: 114761222732571630}
+  - component: {fileID: 114837299639422944}
+  m_Layer: 0
+  m_Name: ShotController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087696318497520
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573207648413128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8854578, y: 0.22225852, z: -0.9765625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4101083562417766}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4101083562417766
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494813058105960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4087696318497520}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61818430722638962
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494813058105960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: -1.0409894, y: -0.30740595}
+  serializedVersion: 2
+  m_Size: {x: 14.008874, y: 5.4993086}
+--- !u!114 &114761222732571630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573207648413128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1682f5805517b147857c9dcec8a1883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSettings: {fileID: 0}
+  spells:
+  - spellType: 0
+    spellIcon: {fileID: 0}
+    manaText: {fileID: 0}
+    progressBar: {fileID: 0}
+    blockSpell: {fileID: 0}
+    blockCost: {fileID: 0}
+    glowPos: {x: -195, y: 62, z: 0}
+    spellObject: {fileID: 1000011431602624, guid: 133ace3b07800b54390ec7db29d5858b,
+      type: 2}
+    rechargeTime: 0.8
+    manaValue: 15
+  - spellType: 8
+    spellIcon: {fileID: 0}
+    manaText: {fileID: 0}
+    progressBar: {fileID: 0}
+    blockSpell: {fileID: 0}
+    blockCost: {fileID: 0}
+    glowPos: {x: -64, y: 62, z: 0}
+    spellObject: {fileID: 1000011431602624, guid: 133ace3b07800b54390ec7db29d5858b,
+      type: 2}
+    rechargeTime: 0.8
+    manaValue: 15
+  - spellType: 8
+    spellIcon: {fileID: 0}
+    manaText: {fileID: 0}
+    progressBar: {fileID: 0}
+    blockSpell: {fileID: 0}
+    blockCost: {fileID: 0}
+    glowPos: {x: 65, y: 62, z: 0}
+    spellObject: {fileID: 1000011431602624, guid: 133ace3b07800b54390ec7db29d5858b,
+      type: 2}
+    rechargeTime: 0.8
+    manaValue: 15
+  - spellType: 8
+    spellIcon: {fileID: 0}
+    manaText: {fileID: 0}
+    progressBar: {fileID: 0}
+    blockSpell: {fileID: 0}
+    blockCost: {fileID: 0}
+    glowPos: {x: 195, y: 62, z: 0}
+    spellObject: {fileID: 1000011431602624, guid: 133ace3b07800b54390ec7db29d5858b,
+      type: 2}
+    rechargeTime: 0.8
+    manaValue: 15
+  mageAnimator: {fileID: 0}
+  startPos: {fileID: 0}
+  activeGlow: {fileID: 0}
+  alreadySpawnedBreath: 0
+  lowManaText: {fileID: 0}
+--- !u!114 &114769558004193228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573207648413128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20569f46421837143ac175e18bfbf1da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapRT: {fileID: 0}
+  enemies: {fileID: 0}
+  simulateTouchWithMouse: 1
+--- !u!114 &114771421335089208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494813058105960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66eb73edbdc81e439b2f71da8e1f9ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114837299639422944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573207648413128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb29c1731248df441900d8769aeee278, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoverySpeed: 5.5
+  manaBar: {fileID: 0}
+  manaDigits: {fileID: 0}
+  levelSettings: {fileID: 0}
+  GoogleLoadedData: {fileID: 0}
+  hasteColor: {r: 0.63529414, g: 1, b: 0.28627452, a: 1}
+  defaultColor: {r: 0.23529412, g: 0.79607844, b: 0.84705883, a: 1}

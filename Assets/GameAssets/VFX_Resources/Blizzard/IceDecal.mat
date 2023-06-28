@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: IceDecal
+  m_Shader: {fileID: 4800000, guid: 76c7d1096fcdbe543b054a0ba4460941, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: <noninit>
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: adcc88a1580af3647b63a900764f3cf6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: c1ad01f33e5dc4d40ae09cf74ba9d47f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b5738555627c9d94eb7f195ed4bdaf44, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: <noninit>
+      second: 0
+    - first:
+        name: _BumpAmt
+      second: 400
+    - first:
+        name: _Cutoff
+      second: 1
+    - first:
+        name: _FPOW
+      second: 1
+    - first:
+        name: _R0
+      second: 0.85
+    m_Colors:
+    - first:
+        name: <noninit>
+      second: {r: 0, g: 2.388937e-34, b: 0, a: 2.3889223e-34}
+    - first:
+        name: _Color
+      second: {r: 0.72794116, g: 0.842393, b: 1, a: 0.509}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.598724, g: 0.6600765, b: 0.7205882, a: 1}

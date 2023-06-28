@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Shot
+  - Wall
+  - Barrier
+  - EnemyBase
+  - Mine
+  - LevelSettings
+  - Coin
+  - Casket
+  - Tutorial
+  - ScrollController
+  - UIParent
+  - DeadEnemy
+  - CameraMap
+  - UIShop
+  - CoinsUI
+  - ManaTarget
+  - GameCamera
+  - ImageMageRate
+  - WearActive
+  - SlowWalk
+  - FriendlyEnemy
+  - CoinIcon
+  - PlayerArmature
+  - ManaAnimator
+  - HealthAnimator
+  - CenterPowerPoison
+  - HealthTarget
+  - ManaTargetEffect
+  - TargetEffect
+  - Staff
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Characters
+  - Environment
+  - RayColliders
+  - Elements
+  - MapScroll
+  - OverUI
+  - CharacterOverUI
+  - Wall
+  - Earth
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4225751629
+    locked: 0
+  - name: Elements
+    uniqueID: 1862657157
+    locked: 0
+  - name: Above elements
+    uniqueID: 1896141819
+    locked: 0
+  - name: Above above elements
+    uniqueID: 727116035
+    locked: 0

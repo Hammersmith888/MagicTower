@@ -1,0 +1,1870 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e4a4a3691ea144290e4f543980fca2, type: 3}
+  m_Name: InfoLoaderConfig
+  m_EditorClassIdentifier: 
+  infoLine: Info/InfoParametersLine
+  infoLineIcon: Info/InfoParametersIcon
+  infoEnemy: Info/InfoEnemy
+  infoSpell: Info/InfoSpell
+  infoUpgrades: Info/InfoUpgrades
+  infoEnemiesDatas:
+  - titleText: t_0058
+    descriptionText: t_0059
+    levelFirstTimeText: 1
+    iconSprite: {fileID: 21300000, guid: 70afbb3dd2e28624ea15f47508748361, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 100
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 3
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: FIRE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: NONE
+      enemyParamType: 4
+    enemyType: 0
+    speed: 2
+    attackType: 0
+    openLevel: 1
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0060
+    descriptionText: t_0061
+    levelFirstTimeText: 2
+    iconSprite: {fileID: 21300000, guid: 65d1ab0f232003c40ae7dc75b7fee530, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 175
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 7
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.44015005, g: 0.4433962, b: 0.13176396, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: FIRE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: AIR, EARTH, WATER
+      enemyParamType: 4
+    enemyType: 1
+    speed: 1
+    attackType: 0
+    openLevel: 2
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0483
+    descriptionText: t_0484
+    levelFirstTimeText: 2
+    iconSprite: {fileID: 21300000, guid: 9cb271f49d743c446b6c493579e3c739, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 340
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 21
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, AIR
+      enemyParamType: 4
+    enemyType: 2
+    speed: 2
+    attackType: 0
+    openLevel: 2
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0072
+    descriptionText: t_0073
+    levelFirstTimeText: 15
+    iconSprite: {fileID: 21300000, guid: 8f1edb7bc443db04c91400c2ae64efb8, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 1700
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 35
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, AIR
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0437
+      valueLocaleId: t_0436
+      enemyParamType: 5
+    enemyType: 3
+    speed: 2
+    attackType: 0
+    openLevel: 15
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0070
+    descriptionText: t_0071
+    levelFirstTimeText: 7
+    iconSprite: {fileID: 21300000, guid: 988e143f6b8d7ec4c939d39c3cc5950c, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 310
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 12
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, WATER
+      enemyParamType: 4
+    enemyType: 4
+    speed: 1
+    attackType: 0
+    openLevel: 7
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0068
+    descriptionText: t_0069
+    levelFirstTimeText: 5
+    iconSprite: {fileID: 21300000, guid: 2dcd322ccb6077e448937153f079a132, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 140
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0441
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: EARTH
+      enemyParamType: 4
+    enemyType: 5
+    speed: 3
+    attackType: 1
+    openLevel: 5
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0062
+    descriptionText: t_0063
+    levelFirstTimeText: 4
+    iconSprite: {fileID: 21300000, guid: 5293378e8320c4448927d22d5a3db075, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 70
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 4
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0442
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: EARTH
+      enemyParamType: 4
+    enemyType: 6
+    speed: 4
+    attackType: 0
+    openLevel: 4
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0078
+    descriptionText: t_0079
+    levelFirstTimeText: 19
+    iconSprite: {fileID: 21300000, guid: 96bc24e9021f5c84389407d90db541d6, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 270
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 22
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: AIR, WATER
+      enemyParamType: 4
+    enemyType: 7
+    speed: 1
+    attackType: 0
+    openLevel: 19
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0076
+    descriptionText: t_0077
+    levelFirstTimeText: 17
+    iconSprite: {fileID: 21300000, guid: 38b2f79b9ac1a45478d9a4916a7b67dd, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 130
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 7
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0414\u0410"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 8
+    speed: 1
+    attackType: 1
+    openLevel: 17
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0082
+    descriptionText: t_0083
+    levelFirstTimeText: 30
+    iconSprite: {fileID: 21300000, guid: ed8098f96044d214ca9e2e81f050ead0, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 5399
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 45
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041E\u0413\u041E\u041D\u042C, \u0412\u041E\u0417\u0414\u0423\u0425,
+        \u0412\u041E\u0414\u0410"
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0437
+      valueLocaleId: t_0436
+      enemyParamType: 5
+    enemyType: 9
+    speed: 1
+    attackType: 0
+    openLevel: 30
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0064
+    descriptionText: t_0065
+    levelFirstTimeText: 3
+    iconSprite: {fileID: 21300000, guid: 34f98277a49077e4aa859abd9461991d, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 140
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 0
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0438
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, EARTH
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0432
+      valueLocaleId: t_0066
+      enemyParamType: 5
+    enemyType: 10
+    speed: 0
+    attackType: 1
+    openLevel: 3
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0080
+    descriptionText: t_0081
+    levelFirstTimeText: 23
+    iconSprite: {fileID: 21300000, guid: 131935fe8cea48a45b0965b686ec571d, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 300
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 0
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0438
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0432
+      valueLocaleId: t_0084
+      enemyParamType: 5
+    enemyType: 14
+    speed: 0
+    attackType: 1
+    openLevel: 23
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0066
+    descriptionText: t_0067
+    levelFirstTimeText: -1
+    iconSprite: {fileID: 21300000, guid: 149f27f34c89e824e8ccd2ff56d27d7c, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 100
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 5
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: t_0443
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: t_0443
+      enemyParamType: 4
+    enemyType: 28
+    speed: 1
+    attackType: 0
+    openLevel: -1
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0084
+    descriptionText: t_0085
+    levelFirstTimeText: -1
+    iconSprite: {fileID: 21300000, guid: 0b202a9c400737d4b85fe76c6b8da95b, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 100
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 5
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: t_0443
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: t_0443
+      enemyParamType: 4
+    enemyType: 27
+    speed: 1
+    attackType: 0
+    openLevel: -1
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0444
+    descriptionText: t_0445
+    levelFirstTimeText: 46
+    iconSprite: {fileID: 21300000, guid: 7122016272d9c62419f9e817ca21fca7, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 490
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0441
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 22
+    speed: 3
+    attackType: 0
+    openLevel: 46
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0446
+    descriptionText: t_0447
+    levelFirstTimeText: 51
+    iconSprite: {fileID: 21300000, guid: 00026838b0109bc45bffc5ec8f46e912, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 180
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 15
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0441
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u041E\u0413\u041E\u041D\u042C"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 16
+    speed: 3
+    attackType: 1
+    openLevel: 51
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0448
+    descriptionText: t_0449
+    levelFirstTimeText: 56
+    iconSprite: {fileID: 21300000, guid: e6bde419d9a40e146ac94bff802f78ec, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 800
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 15
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 25
+    speed: 2
+    attackType: 0
+    openLevel: 56
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0450
+    descriptionText: t_0451
+    levelFirstTimeText: 63
+    iconSprite: {fileID: 21300000, guid: bed9edbe3395b0e4697c350994d2fd18, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 600
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 15
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0442
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 24
+    speed: 4
+    attackType: 0
+    openLevel: 63
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0452
+    descriptionText: t_0453
+    levelFirstTimeText: 70
+    iconSprite: {fileID: 21300000, guid: 8f3dc237f9b83784aa34a6eac8dee710, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 35000
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 60
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.865882, g: 0.20496619, b: 0.8867924, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, AIR, EARTH, WATER
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0437
+      valueLocaleId: t_0436
+      enemyParamType: 5
+    enemyType: 23
+    speed: 1
+    attackType: 0
+    openLevel: 70
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0454
+    descriptionText: t_0455
+    levelFirstTimeText: 71
+    iconSprite: {fileID: 21300000, guid: 433bc03ce1bcd8349843022fa299af8b, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 260
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 5
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0441
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 17
+    speed: 3
+    attackType: 0
+    openLevel: 71
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0456
+    descriptionText: t_0457
+    levelFirstTimeText: 76
+    iconSprite: {fileID: 21300000, guid: 0bc26d60ddaf3924292327373eaf3904, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 100
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 12
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0441
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0414\u0410"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 18
+    speed: 3
+    attackType: 0
+    openLevel: 76
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0462
+    descriptionText: t_0463
+    levelFirstTimeText: 95
+    iconSprite: {fileID: 21300000, guid: 55803535d9ebb0647a30032bf96f77b2, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 3000
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 45
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0417\u0415\u041C\u041B\u042F"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0437
+      valueLocaleId: t_0436
+      enemyParamType: 5
+    enemyType: 19
+    speed: 1
+    attackType: 0
+    openLevel: 95
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0458
+    descriptionText: t_0459
+    levelFirstTimeText: 84
+    iconSprite: {fileID: 21300000, guid: a96c7809ce02c8c42993a698579a3442, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 800
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0431
+      valueLocaleId: 15
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0439
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0432
+      valueLocaleId: t_0456
+      enemyParamType: 5
+    enemyType: 20
+    speed: 1
+    attackType: 1
+    openLevel: 84
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0460
+    descriptionText: t_0461
+    levelFirstTimeText: 89
+    iconSprite: {fileID: 21300000, guid: 842b9e2e33081d041b492234fe669d3c, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 490
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 21
+    speed: 2
+    attackType: 0
+    openLevel: 89
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0468
+    descriptionText: t_0469
+    levelFirstTimeText: 45
+    iconSprite: {fileID: 21300000, guid: 10433b46cf71eee4ebc1a37b109a56d1, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 3000
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 45
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0417\u0415\u041C\u041B\u042F"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0437
+      valueLocaleId: t_0436
+      enemyParamType: 5
+    enemyType: 26
+    speed: 2
+    attackType: 0
+    openLevel: 45
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0074
+    descriptionText: t_0075
+    levelFirstTimeText: 16
+    iconSprite: {fileID: 21300000, guid: 810fae30c73ca454995950dc64ae41a3, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 210
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 11
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: NONE
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: FIRE, AIR
+      enemyParamType: 4
+    enemyType: 11
+    speed: 2
+    attackType: 0
+    openLevel: 16
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0485
+    descriptionText: t_0486
+    levelFirstTimeText: 22
+    iconSprite: {fileID: 21300000, guid: 485e0b936d06ef840a0d24651283a1da, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 190
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 29
+    speed: 4
+    attackType: 0
+    openLevel: 22
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0487
+    descriptionText: t_0488
+    levelFirstTimeText: 25
+    iconSprite: {fileID: 21300000, guid: a2ebbde7ea7f59c46896a67c003c9ba6, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 190
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 30
+    speed: 3
+    attackType: 1
+    openLevel: 25
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0489
+    descriptionText: t_0490
+    levelFirstTimeText: 34
+    iconSprite: {fileID: 21300000, guid: c5fcc35e12fe7534db2d8a34207a60f2, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 190
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0429
+      valueLocaleId: 10
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0430
+      valueLocaleId: t_0440
+      enemyParamType: 2
+    - titleColor: {r: 0.86245525, g: 0.86764705, b: 0.49124134, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0427
+      valueLocaleId: "\u0412\u041E\u0417\u0414\u0423\u0425"
+      enemyParamType: 3
+    - titleColor: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0426
+      valueLocaleId: "\u041D\u0415\u0422"
+      enemyParamType: 4
+    enemyType: 31
+    speed: 2
+    attackType: 0
+    openLevel: 34
+    showOnMap: 1
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0551
+    descriptionText: t_0644
+    levelFirstTimeText: 17
+    iconSprite: {fileID: 0}
+    infoLineDatas: []
+    enemyType: 33
+    speed: 2
+    attackType: 0
+    openLevel: 17
+    showOnMap: 0
+    showOnLevel: 1
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0551
+    descriptionText: t_0644
+    levelFirstTimeText: 18
+    iconSprite: {fileID: 0}
+    infoLineDatas: []
+    enemyType: 32
+    speed: 2
+    attackType: 0
+    openLevel: -1
+    showOnMap: 0
+    showOnLevel: 0
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  - titleText: t_0551
+    descriptionText: t_0644
+    levelFirstTimeText: 18
+    iconSprite: {fileID: 0}
+    infoLineDatas: []
+    enemyType: 34
+    speed: 2
+    attackType: 0
+    openLevel: -1
+    showOnMap: 0
+    showOnLevel: 0
+    resistOrVulnarebilityTextData:
+      damageType: 0
+      localTextId: 
+      percentValue: 0
+  infoSpellsDatas:
+  - titleText: t_0125
+    descriptionText: t_0126
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 60c5116b6392c9b4894373c839601999, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 60
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "8 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 15
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0512
+      enemyParamType: 5
+    spellType: 0
+    damageType: 2
+  - titleText: t_0130
+    descriptionText: t_0131
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 221c46052d01e2640abf0797bf1188d1, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 60
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "8 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 15
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0514
+      enemyParamType: 5
+    spellType: 1
+    damageType: 1
+  - titleText: t_0135
+    descriptionText: t_0136
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 24b185811216e6b48a3f4d59aa5e4f42, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 40
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "8 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 14
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0513
+      enemyParamType: 5
+    spellType: 2
+    damageType: 3
+  - titleText: t_0140
+    descriptionText: t_0141
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: bc182a1d21819b84f9271601d444647a, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 90
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "15 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 20
+      enemyParamType: 2
+    spellType: 3
+    damageType: 4
+  - titleText: t_0145
+    descriptionText: t_0146
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 930b17936002ecf4c8d3d885ed7bdec2, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 25
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "115 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 35
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0512
+      enemyParamType: 5
+    spellType: 4
+    damageType: 2
+  - titleText: t_0155
+    descriptionText: t_0156
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: d3f29514b770ec740a3204dae767b6b3, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 35
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "95 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 35
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0513
+      enemyParamType: 5
+    spellType: 5
+    damageType: 3
+  - titleText: t_0150
+    descriptionText: t_0151
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: ef3df8863a9d78b4f8973cc9aadf579f, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 70
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "23 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 35
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0514
+      enemyParamType: 5
+    spellType: 6
+    damageType: 1
+  - titleText: t_0160
+    descriptionText: t_0161
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 3b3b72deb9ea2d14aacd78e9484e72a0, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 50
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: 8
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 18
+      enemyParamType: 2
+    spellType: 7
+    damageType: 4
+  - titleText: t_0300
+    descriptionText: t_0301
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 33aef3dc2d8c74e4d897f05ea7a6bc4a, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 22
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "70 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 40
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0513
+      enemyParamType: 5
+    spellType: 9
+    damageType: 3
+  - titleText: t_0290
+    descriptionText: t_0291
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: ab84bd8fdcb0b5642a7d1dc9d8c38185, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 450
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "150 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 40
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0512
+      enemyParamType: 5
+    spellType: 10
+    damageType: 2
+  - titleText: t_0295
+    descriptionText: t_0296
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 54efbf0aff22b4f438b1ce1c85155ab1, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 65
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "30 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 35
+      enemyParamType: 2
+    - titleColor: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0511
+      valueLocaleId: t_0514
+      enemyParamType: 5
+    spellType: 11
+    damageType: 1
+  - titleText: t_0305
+    descriptionText: t_0306
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: f4a3f76f96a6afe4692c3aa91419d133, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 160
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "160 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 55
+      enemyParamType: 2
+    spellType: 12
+    damageType: 4
+  - titleText: t_0464
+    descriptionText: t_0465
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 7bf1e35fd8ccc564788fd5a1d4be1422, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 40
+      enemyParamType: 1
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0466
+      valueLocaleId: "8 \u0441\u0435\u043A\u0443\u043D\u0434"
+      enemyParamType: 0
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0467
+      valueLocaleId: 14
+      enemyParamType: 2
+    spellType: 13
+    damageType: 4
+  infoScrollsDatas:
+  - titleText: t_0164
+    descriptionText: t_0165
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: b7a2db9eaa79e324a8b32c7b692e7233, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 114
+      enemyParamType: 1
+    scrollType: 0
+    damageType: 4
+  - titleText: t_0167
+    descriptionText: t_0168
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: cd36c22a5d88a0a4996b109cf1f2f719, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 80
+      enemyParamType: 0
+    scrollType: 1
+    damageType: 0
+  - titleText: t_0170
+    descriptionText: t_0171
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 638fc330fc0560e45a96f479c8bfbb6e, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 35
+      enemyParamType: 1
+    scrollType: 2
+    damageType: 3
+  - titleText: t_0173
+    descriptionText: t_0174
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: f44cc2cc6a0fdac4fb26fac99e48e954, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 100
+      enemyParamType: 1
+    scrollType: 3
+    damageType: 2
+  - titleText: t_0307
+    descriptionText: t_0308
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 0af55c4d409b2474aa177738c17dd12d, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0428
+      valueLocaleId: 150
+      enemyParamType: 0
+    - titleColor: {r: 1, g: 0, b: 0, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0556
+      valueLocaleId: 10
+      enemyParamType: 1
+    scrollType: 4
+    damageType: 0
+  - titleText: t_0310
+    descriptionText: t_0311
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: eb5a633c8d11c864fb1e899224734576, type: 3}
+    infoLineDatas:
+    - titleColor: {r: 0, g: 0.71034503, b: 1, a: 1}
+      valueColor: {r: 1, g: 1, b: 1, a: 1}
+      titleLocaleId: t_0434
+      valueLocaleId: +20%
+      enemyParamType: 2
+    scrollType: 5
+    damageType: 0
+  infoUpgradesDatas:
+  - titleText: t_0105
+    descriptionText: t_0106
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 5b15dd55d66288e40b42823efa9868c4, type: 3}
+    infoLineDatas: []
+    upgradeType: 1
+  - titleText: t_0107
+    descriptionText: t_0111
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 42d072eed25e8cb40aff2c7ef5c4cc3b, type: 3}
+    infoLineDatas: []
+    upgradeType: 2
+  - titleText: t_0115
+    descriptionText: t_0116
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 13a3e20e52b20974bba5e730fafc6d1f, type: 3}
+    infoLineDatas: []
+    upgradeType: 3
+  - titleText: t_0120
+    descriptionText: t_0121
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: eed910415e5c5374cbd77d9388f2bf65, type: 3}
+    infoLineDatas: []
+    upgradeType: 4
+  - titleText: t_0409
+    descriptionText: t_0116
+    levelFirstTimeText: 
+    iconSprite: {fileID: 21300000, guid: 6a6e835381fcc824f9ae209200cf93f9, type: 3}
+    infoLineDatas: []
+    upgradeType: 5
+  titleColors:
+  - colorType: 0
+    color: {r: 0, g: 0.8088235, b: 0.20638952, a: 1}
+  - colorType: 1
+    color: {r: 0, g: 0.6698113, b: 0.17233008, a: 1}
+  - colorType: 2
+    color: {r: 0, g: 0.71034503, b: 1, a: 1}
+  - colorType: 3
+    color: {r: 0.865882, g: 0.20496619, b: 0.8867924, a: 1}
+  - colorType: 4
+    color: {r: 0.8627451, g: 0.8666667, b: 0.49019608, a: 1}
+  - colorType: 5
+    color: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+  - colorType: 6
+    color: {r: 0.10196078, g: 0.93333334, b: 0.686055, a: 1}
+  - colorType: 7
+    color: {r: 0.9338235, g: 0.10299523, b: 0.84214586, a: 1}
+  speedIds:
+  - speed: 0
+    id: t_0438
+  - speed: 1
+    id: t_0439
+  - speed: 2
+    id: t_0440
+  - speed: 3
+    id: t_0441
+  - speed: 4
+    id: t_0442
+  enemyMeets:
+  - enemy: 0
+    levelId: 1
+  - enemy: 1
+    levelId: 2
+  - enemy: 6
+    levelId: 4
+  - enemy: 5
+    levelId: 5
+  - enemy: 4
+    levelId: 7
+  - enemy: 10
+    levelId: 3
+  - enemy: 3
+    levelId: 15
+  - enemy: 11
+    levelId: 16
+  - enemy: 8
+    levelId: 17
+  - enemy: 7
+    levelId: 19
+  - enemy: 14
+    levelId: 23
+  - enemy: 9
+    levelId: 30
+  - enemy: 26
+    levelId: 45
+  - enemy: 22
+    levelId: 46
+  - enemy: 16
+    levelId: 51
+  - enemy: 25
+    levelId: 56
+  - enemy: 24
+    levelId: 63
+  - enemy: 23
+    levelId: 70
+  - enemy: 17
+    levelId: 71
+  - enemy: 18
+    levelId: 76
+  - enemy: 20
+    levelId: 84
+  - enemy: 21
+    levelId: 89
+  - enemy: 19
+    levelId: 95
+  - enemy: 2
+    levelId: 2
+  - enemy: 29
+    levelId: 22
+  - enemy: 30
+    levelId: 25
+  - enemy: 31
+    levelId: 34
+  - enemy: 32
+    levelId: 5
+  spellMeets:
+  - spell: 0
+    levelId: 1
+  - spell: 1
+    levelId: 3
+  - spell: 2
+    levelId: 6
+  - spell: 3
+    levelId: 10
+  - spell: 4
+    levelId: 13
+  - spell: 6
+    levelId: 16
+  - spell: 5
+    levelId: 21
+  - spell: 7
+    levelId: 26
+  - spell: 10
+    levelId: 52
+  - spell: 11
+    levelId: 67
+  - spell: 9
+    levelId: 75
+  - spell: 12
+    levelId: 80
+  - spell: 13
+    levelId: 9999
+  scrollMeets:
+  - scroll: 0
+    levelId: 1
+  - scroll: 1
+    levelId: 4
+  - scroll: 2
+    levelId: 7
+  - scroll: 3
+    levelId: 11
+  - scroll: 4
+    levelId: 55
+  - scroll: 5
+    levelId: 86
+  upgradeMeets:
+  - upgrade: 3
+    levelId: 13
+  - upgrade: 5
+    levelId: 51
+  - upgrade: 1
+    levelId: 7
+  - upgrade: 2
+    levelId: 9
+  - upgrade: 4
+    levelId: 19
+  resistTextDatas:
+  - damageType: 2
+    localTextId: t_0527
+    percentValue: 0
+  - damageType: 3
+    localTextId: t_0528
+    percentValue: 0
+  - damageType: 1
+    localTextId: t_0529
+    percentValue: 0
+  - damageType: 4
+    localTextId: t_0530
+    percentValue: 0
+  vulnarebilityTextDatas:
+  - damageType: 2
+    localTextId: t_0531
+    percentValue: 0
+  - damageType: 3
+    localTextId: t_0532
+    percentValue: 0
+  - damageType: 1
+    localTextId: t_0533
+    percentValue: 0
+  - damageType: 4
+    localTextId: t_0534
+    percentValue: 0
+  maxOpenedLevel: 1

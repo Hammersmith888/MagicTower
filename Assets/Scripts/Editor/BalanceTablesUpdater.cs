@@ -1,0 +1,84 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+public class BalanceTablesUpdater : EditorWindow
+{
+    private bool currentlyUpdating;
+
+    [MenuItem("Tools/Update Balance Tables")]
+    static void Init()
+    {
+        BalanceTablesUpdater window = (BalanceTablesUpdater)EditorWindow.GetWindow(typeof(BalanceTablesUpdater));
+        window.Show();
+    }
+
+    private void OnEnable()
+    {
+        if (!currentlyUpdating)
+        {
+            currentlyUpdating = true;
+            RetrieveParameters();
+        }
+    }
+
+    void OnGUI()
+    {
+        GUILayout.Label("Don't close window while process running");
+    }
+
+    private bool isCallbackRegistered;
+    public void RetrieveParameters()
+    {
+        Debug.Log("Retrieving Parameters");
+        if (!isCallbackRegistered)
+        {
+            isCallbackRegistered = true;
+            CloudConnectorCore.processedResponseCallback.AddListener(SetOfflineBalanceVariables);
+        }
+        CloudConnectorCore.GetAllTables(true);
+    }
+
+
+    public void SetOfflineBalanceVariables(CloudConnectorCore.QueryType query, List<string> objTypeNames, List<string> jsonData)
+    {
+        Debug.Log("Data received, saving...");
+        Spell_Parameters spellParams_save = Spell_Parameters.Create<Spell_Parameters>(GSFUJsonHelper.JsonArray<SpellParameters>(jsonData[0]));
+        Spell_Parameters scrollParams_save = Spell_Parameters.Create<Spell_Parameters>(GSFUJsonHelper.JsonArray<SpellParameters>(jsonData[1]));
+        //Debug.Log("==== 4 ====");
+        Debug.Log(jsonData[4]);
+        var dt = LitJson.JsonMapper.ToObject<List<GemsConfig.Parameters>>(jsonData[4]);
+        GemsConfig.SetParams(dt);
+        Enemy_Parameters enemyParams_save = Enemy_Parameters.Create<Enemy_Parameters>(GSFUJsonHelper.JsonArray<EnemyParameters>(jsonData[2]));
+        Character_UpgradeParameters characterUpgrades_save = Character_UpgradeParameters.Create<Character_UpgradeParameters>(GSFUJsonHelper.JsonArray<CharacterUpgradeParameters>(jsonData[3]));
+        Potions_Parameters potionsParams_save = Potions_Parameters.Create<Potions_Parameters>(GSFUJsonHelper.JsonArray<PotionsParameters>(jsonData[5]));
+        BottlesWin_Parameters bottlesWinParams_save = BottlesWin_Parameters.Create<BottlesWin_Parameters>(GSFUJsonHelper.JsonArray<BottlesWinParameters>(jsonData[6]));
+        Other_Parameters otherParams_save = Other_Parameters.Create<Other_Parameters>(GSFUJsonHelper.JsonArray<OtherParameters>(jsonData[7]));
+
+
+
+        if (spellParams_save.Length == 0)
+        {
+            return;
+        }
+
+        BalanceTables.Instance.SetBalanceData(
+            spellParams_save.getInnerArray,
+            scrollParams_save.getInnerArray, 
+            enemyParams_save.getInnerArray,
+            characterUpgrades_save.getInnerArray,
+            potionsParams_save.getInnerArray,
+            bottlesWinParams_save.getInnerArray,
+            otherParams_save.getInnerArray
+            );
+
+        if (isCallbackRegistered)
+        {
+            isCallbackRegistered = false;
+            CloudConnectorCore.processedResponseCallback.RemoveListener(SetOfflineBalanceVariables);
+        }
+        currentlyUpdating = false;
+        Close();
+    }
+}

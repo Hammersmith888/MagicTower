@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "770080308113",
+    "firebase_url": "https://magic-siege-57930146.firebaseio.com",
+    "project_id": "magic-siege-57930146",
+    "storage_bucket": "magic-siege-57930146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770080308113:android:d84dfb696c522a5b",
+        "android_client_info": {
+          "package_name": "com.akpublish.magicsiege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770080308113-ss8d0p4i7veghojdv6chh3qtp1vqm905.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfHEo7TlSFZnirDWfX_9_B0HNF_0y15eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770080308113-ss8d0p4i7veghojdv6chh3qtp1vqm905.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "770080308113-gm36qar9a3dochpigojmhug9kk7pcqip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Oriplay.MagicSiege"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

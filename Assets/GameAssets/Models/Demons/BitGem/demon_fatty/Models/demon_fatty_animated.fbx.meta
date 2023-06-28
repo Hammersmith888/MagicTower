@@ -1,0 +1,3602 @@
+fileFormatVersion: 2
+guid: 0c86c7c18cdc2498eb3e12f2b4ed10bb
+timeCreated: 1495870778
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle1_L
+    100002: Ankle1_R
+    100004: Ankle_L
+    100006: Ankle_R
+    100008: BackA_M
+    100010: BackB_M
+    100012: Chest_M
+    100014: Cup_L
+    100016: Cup_R
+    100018: demon_fatty_mesh
+    100020: //RootNode
+    100022: Elbow_L
+    100024: Elbow_R
+    100026: Head_M
+    100028: HeadTip_M
+    100030: Hip1_L
+    100032: Hip1_R
+    100034: Hip2_L
+    100036: Hip2_R
+    100038: IndexFinger1_L
+    100040: IndexFinger1_R
+    100042: IndexFinger3_L
+    100044: IndexFinger3_R
+    100046: IndexFinger4_L
+    100048: IndexFinger4_R
+    100050: jaw_M
+    100052: joint4_M
+    100054: Knee1_L
+    100056: Knee1_R
+    100058: Knee_L
+    100060: Knee_R
+    100062: Loin1_M
+    100064: Loin2_M
+    100066: MiddleFinger1_L
+    100068: MiddleFinger1_R
+    100070: MiddleFinger3_L
+    100072: MiddleFinger3_R
+    100074: MiddleFinger4_L
+    100076: MiddleFinger4_R
+    100078: MiddleToe1_L
+    100080: MiddleToe1_R
+    100082: MiddleToe2_L
+    100084: MiddleToe2_R
+    100086: MiddleToe3_L
+    100088: MiddleToe3_R
+    100090: MiddleToe4_L
+    100092: MiddleToe4_R
+    100094: mouthcorner_L
+    100096: mouthcorner_R
+    100098: mouthcornertip_L
+    100100: mouthcornertip_R
+    100102: Neck_M
+    100104: PinkyFinger1_L
+    100106: PinkyFinger1_R
+    100108: PinkyFinger3_L
+    100110: PinkyFinger3_R
+    100112: PinkyFinger4_L
+    100114: PinkyFinger4_R
+    100116: Root_M
+    100118: Scapula_L
+    100120: Scapula_R
+    100122: Shoulder_L
+    100124: Shoulder_R
+    100126: tail1_M
+    100128: tail2_M
+    100130: ThumbFinger1_L
+    100132: ThumbFinger1_R
+    100134: ThumbFinger3_L
+    100136: ThumbFinger3_R
+    100138: ThumbFinger4_L
+    100140: ThumbFinger4_R
+    100142: tongue1_M
+    100144: tongue2_M
+    100146: tongue3_M
+    100148: tonguetip_M
+    100150: topteeth_M
+    100152: topteethtip_M
+    100154: Wrist_L
+    100156: Wrist_R
+    400000: Ankle1_L
+    400002: Ankle1_R
+    400004: Ankle_L
+    400006: Ankle_R
+    400008: BackA_M
+    400010: BackB_M
+    400012: Chest_M
+    400014: Cup_L
+    400016: Cup_R
+    400018: demon_fatty_mesh
+    400020: //RootNode
+    400022: Elbow_L
+    400024: Elbow_R
+    400026: Head_M
+    400028: HeadTip_M
+    400030: Hip1_L
+    400032: Hip1_R
+    400034: Hip2_L
+    400036: Hip2_R
+    400038: IndexFinger1_L
+    400040: IndexFinger1_R
+    400042: IndexFinger3_L
+    400044: IndexFinger3_R
+    400046: IndexFinger4_L
+    400048: IndexFinger4_R
+    400050: jaw_M
+    400052: joint4_M
+    400054: Knee1_L
+    400056: Knee1_R
+    400058: Knee_L
+    400060: Knee_R
+    400062: Loin1_M
+    400064: Loin2_M
+    400066: MiddleFinger1_L
+    400068: MiddleFinger1_R
+    400070: MiddleFinger3_L
+    400072: MiddleFinger3_R
+    400074: MiddleFinger4_L
+    400076: MiddleFinger4_R
+    400078: MiddleToe1_L
+    400080: MiddleToe1_R
+    400082: MiddleToe2_L
+    400084: MiddleToe2_R
+    400086: MiddleToe3_L
+    400088: MiddleToe3_R
+    400090: MiddleToe4_L
+    400092: MiddleToe4_R
+    400094: mouthcorner_L
+    400096: mouthcorner_R
+    400098: mouthcornertip_L
+    400100: mouthcornertip_R
+    400102: Neck_M
+    400104: PinkyFinger1_L
+    400106: PinkyFinger1_R
+    400108: PinkyFinger3_L
+    400110: PinkyFinger3_R
+    400112: PinkyFinger4_L
+    400114: PinkyFinger4_R
+    400116: Root_M
+    400118: Scapula_L
+    400120: Scapula_R
+    400122: Shoulder_L
+    400124: Shoulder_R
+    400126: tail1_M
+    400128: tail2_M
+    400130: ThumbFinger1_L
+    400132: ThumbFinger1_R
+    400134: ThumbFinger3_L
+    400136: ThumbFinger3_R
+    400138: ThumbFinger4_L
+    400140: ThumbFinger4_R
+    400142: tongue1_M
+    400144: tongue2_M
+    400146: tongue3_M
+    400148: tonguetip_M
+    400150: topteeth_M
+    400152: topteethtip_M
+    400154: Wrist_L
+    400156: Wrist_R
+    4300000: demon_fatty_mesh
+    7400000: fatty spawn
+    7400002: fatty idle
+    7400004: fatty shuffle
+    7400006: fatty walk
+    7400008: fatty backpedal
+    7400010: fatty strafe left
+    7400012: fatty strafe right
+    7400014: fatty run
+    7400016: fatty jump
+    7400018: fatty roar
+    7400020: fatty belly shove
+    7400022: fatty poison breath
+    7400024: fatty swipe attack
+    7400026: fatty horn bash
+    7400028: fatty get hit from behind
+    7400030: fatty get hit from left
+    7400032: fatty get hit from right
+    7400034: fatty die
+    9500000: //RootNode
+    13700000: demon_fatty_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fatty spawn
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty idle
+      takeName: Take 001
+      firstFrame: 146
+      lastFrame: 226
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty shuffle
+      takeName: Take 001
+      firstFrame: 334
+      lastFrame: 362
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty walk
+      takeName: Take 001
+      firstFrame: 418
+      lastFrame: 446
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty backpedal
+      takeName: Take 001
+      firstFrame: 502
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty strafe left
+      takeName: Take 001
+      firstFrame: 586
+      lastFrame: 614
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty strafe right
+      takeName: Take 001
+      firstFrame: 670
+      lastFrame: 698
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty run
+      takeName: Take 001
+      firstFrame: 742
+      lastFrame: 758
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty jump
+      takeName: Take 001
+      firstFrame: 774
+      lastFrame: 804
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty roar
+      takeName: Take 001
+      firstFrame: 804
+      lastFrame: 862
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty belly shove
+      takeName: Take 001
+      firstFrame: 862
+      lastFrame: 907
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty poison breath
+      takeName: Take 001
+      firstFrame: 907
+      lastFrame: 972
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty swipe attack
+      takeName: Take 001
+      firstFrame: 972
+      lastFrame: 1007
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty horn bash
+      takeName: Take 001
+      firstFrame: 1007
+      lastFrame: 1045
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty get hit from behind
+      takeName: Take 001
+      firstFrame: 1045
+      lastFrame: 1067
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty get hit from left
+      takeName: Take 001
+      firstFrame: 1067
+      lastFrame: 1089
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty get hit from right
+      takeName: Take 001
+      firstFrame: 1089
+      lastFrame: 1111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fatty die
+      takeName: Take 001
+      firstFrame: 1133
+      lastFrame: 1168
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: demon_fatty_mesh
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackA_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/HeadTip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/topteeth_M/topteethtip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/joint4_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/jaw_M/tongue1_M/tongue2_M/tongue3_M/tonguetip_M
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_L/mouthcornertip_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Neck_M/mouthcorner_R/mouthcornertip_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R
+        weight: 1
+      - path: Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Root_M/Hip1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L
+        weight: 1
+      - path: Root_M/Hip1_L/Knee1_L/Ankle1_L/MiddleToe4_L/MiddleToe3_L
+        weight: 1
+      - path: Root_M/Hip1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R
+        weight: 1
+      - path: Root_M/Hip1_R/Knee1_R/Ankle1_R/MiddleToe4_R/MiddleToe3_R
+        weight: 1
+      - path: Root_M/Hip2_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Root_M/Hip2_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Root_M/Hip2_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Root_M/Hip2_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Root_M/Loin1_M
+        weight: 1
+      - path: Root_M/Loin1_M/Loin2_M
+        weight: 1
+      - path: Root_M/tail1_M
+        weight: 1
+      - path: Root_M/tail1_M/tail2_M
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

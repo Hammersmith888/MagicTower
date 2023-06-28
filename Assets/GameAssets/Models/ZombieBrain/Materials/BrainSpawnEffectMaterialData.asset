@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1322657d7c83d11458f6fd72ec4fefc5, type: 3}
+  m_Name: BrainSpawnEffectMaterialData
+  m_EditorClassIdentifier: 
+  floatMaterialProperties:
+  - propertyName: _DissolveEdge
+    propertyValue: 0.05
+  - propertyName: _EdgeAroundMultiplier
+    propertyValue: 2.5
+  - propertyName: _DissolveMaskSize
+    propertyValue: 0.6
+  colorMaterialProperties:
+  - propertyName: _EdgeColor
+    propertyValue: {r: 0, g: 1, b: 0.33793116, a: 1}
+  textureMaterialProperties:
+  - propertyName: _DissolveMask
+    propertyValue: {fileID: 2800000, guid: 8b8c0d2a94fa4d540af8c62c70c48cd6, type: 3}
+  shader: {fileID: 4800000, guid: c0937376c33033146a60b205fca9d591, type: 3}

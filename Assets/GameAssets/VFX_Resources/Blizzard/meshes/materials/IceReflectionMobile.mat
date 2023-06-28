@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: IceReflectionMobile
+  m_Shader: {fileID: 4800000, guid: e72f68d80aad10a4bb3b4330aae3d71c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: adcc88a1580af3647b63a900764f3cf6, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: c1ad01f33e5dc4d40ae09cf74ba9d47f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: afed51092c29fbc4a878b7e67f47279a, type: 3}
+        m_Scale: {x: 0.8, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 0
+    - _BumpAmt: 1000
+    - _FPOW: 10
+    - _R0: 0.1
+    - _RefractiveStrength: -1.5
+    m_Colors:
+    - <noninit>: {r: 0, g: 1.8593152e-34, b: 0, a: 1.8593079e-34}
+    - _Color: {r: 0.9191176, g: 0.94645023, b: 1, a: 0.716}
+    - _ReflectColor: {r: 0.78676474, g: 0.86764705, b: 1, a: 1}

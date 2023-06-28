@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62825d92133d3d0499c8b511322a15e7, type: 3}
+  m_Name: MagesSkinsLoaderConfig
+  m_EditorClassIdentifier: 
+  defaultMageTexture: Mage/Textures/tx_Mages_8
+  mageTextures:
+  - textureName: Mage/Textures/tx_Mages_10
+    mageNumber: 0
+  - textureName: Mage/Textures/tx_Mages_2
+    mageNumber: 1
+  - textureName: Mage/Textures/tx_Mages_3
+    mageNumber: 2
+  - textureName: Mage/Textures/tx_Mages_9_02
+    mageNumber: 3
+  - textureName: Mage/Textures/tx_Mages_9
+    mageNumber: 4
+  - textureName: Mage/Textures/TX_Mag_L_01
+    mageNumber: 5
+  - textureName: Mage/Textures/tx_Mages_5
+    mageNumber: 6
+  defaultStaff: Mage/Staves/Posoh_000
+  staves:
+  - staffName: Mage/Staves/Posoh_001
+    staffNumber: 0
+  - staffName: Mage/Staves/Posoh_002_02
+    staffNumber: 1
+  - staffName: Mage/Staves/Posoh_003_02
+    staffNumber: 2
+  - staffName: Mage/Staves/Posoh_004_02
+    staffNumber: 3
+  - staffName: Mage/Staves/Posoh_005_02
+    staffNumber: 4
+  - staffName: Mage/Staves/Posoh_000
+    staffNumber: 5

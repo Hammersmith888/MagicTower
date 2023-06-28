@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 09234603bd3a02f48a7f25e1a7f2928f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bomb
+    100002: //RootNode
+    100004: Hair1_2
+    100006: Hair1_3
+    100008: Hair2_2
+    100010: Hair2_3
+    100012: Hair3
+    100014: Head
+    100016: Hips
+    100018: LClavicle
+    100020: Lear1
+    100022: Lear2
+    100024: LEarG
+    100026: LEye
+    100028: LFoot
+    100030: LForearm
+    100032: LForearmTwist
+    100034: LHand
+    100036: LHp
+    100038: LShin
+    100040: LShoulder
+    100042: LShoulder_Gimbal
+    100044: LThigh
+    100046: LThigh_Gimbal
+    100048: LToe
+    100050: LYG
+    100052: RClavicle
+    100054: Rear1
+    100056: Rear2
+    100058: REarG
+    100060: REye
+    100062: RFoot
+    100064: RForearm
+    100066: RForearmTwist
+    100068: RHand
+    100070: RHp
+    100072: Root
+    100074: RShin
+    100076: RShoulder
+    100078: RShoulder_Gimbal
+    100080: RThigh
+    100082: RThigh_Gimbal
+    100084: RToe
+    100086: RYG
+    100088: Spine1
+    100090: Spine2
+    100092: Spine3
+    400000: Bomb
+    400002: //RootNode
+    400004: Hair1_2
+    400006: Hair1_3
+    400008: Hair2_2
+    400010: Hair2_3
+    400012: Hair3
+    400014: Head
+    400016: Hips
+    400018: LClavicle
+    400020: Lear1
+    400022: Lear2
+    400024: LEarG
+    400026: LEye
+    400028: LFoot
+    400030: LForearm
+    400032: LForearmTwist
+    400034: LHand
+    400036: LHp
+    400038: LShin
+    400040: LShoulder
+    400042: LShoulder_Gimbal
+    400044: LThigh
+    400046: LThigh_Gimbal
+    400048: LToe
+    400050: LYG
+    400052: RClavicle
+    400054: Rear1
+    400056: Rear2
+    400058: REarG
+    400060: REye
+    400062: RFoot
+    400064: RForearm
+    400066: RForearmTwist
+    400068: RHand
+    400070: RHp
+    400072: Root
+    400074: RShin
+    400076: RShoulder
+    400078: RShoulder_Gimbal
+    400080: RThigh
+    400082: RThigh_Gimbal
+    400084: RToe
+    400086: RYG
+    400088: Spine1
+    400090: Spine2
+    400092: Spine3
+    4300000: gro
+    7400000: Death
+    9500000: //RootNode
+    13700000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Death
+      takeName: Base Stack
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/LHp
+        weight: 1
+      - path: Root/Hips/LHp/LThigh_Gimbal
+        weight: 1
+      - path: Root/Hips/LHp/LThigh_Gimbal/LThigh
+        weight: 1
+      - path: Root/Hips/LHp/LThigh_Gimbal/LThigh/LShin
+        weight: 1
+      - path: Root/Hips/LHp/LThigh_Gimbal/LThigh/LShin/LFoot
+        weight: 1
+      - path: Root/Hips/LHp/LThigh_Gimbal/LThigh/LShin/LFoot/LToe
+        weight: 1
+      - path: Root/Hips/RHp
+        weight: 1
+      - path: Root/Hips/RHp/RThigh_Gimbal
+        weight: 1
+      - path: Root/Hips/RHp/RThigh_Gimbal/RThigh
+        weight: 1
+      - path: Root/Hips/RHp/RThigh_Gimbal/RThigh/RShin
+        weight: 1
+      - path: Root/Hips/RHp/RThigh_Gimbal/RThigh/RShin/RFoot
+        weight: 1
+      - path: Root/Hips/RHp/RThigh_Gimbal/RThigh/RShin/RFoot/RToe
+        weight: 1
+      - path: Root/Hips/Spine1
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Bomb
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/Hair1_2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/Hair1_2/Hair1_3
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/Hair2_2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/Hair2_2/Hair2_3
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/Hair3
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/LEarG
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/LEarG/Lear1
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/LEarG/Lear1/Lear2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/LYG
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/LYG/LEye
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/REarG
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/REarG/Rear1
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/REarG/Rear1/Rear2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/RYG
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Head/RYG/REye
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle/LShoulder_Gimbal
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle/LShoulder_Gimbal/LShoulder
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle/LShoulder_Gimbal/LShoulder/LForearm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle/LShoulder_Gimbal/LShoulder/LForearm/LForearmTwist
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/LClavicle/LShoulder_Gimbal/LShoulder/LForearm/LHand
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal/RShoulder
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal/RShoulder/RForearm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal/RShoulder/RForearm/RForearmTwist
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal/RShoulder/RForearm/RHand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

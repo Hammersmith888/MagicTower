@@ -1,0 +1,967 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45cbb44627a563a4b856dfc0ad3d0a20, type: 3}
+  m_Name: ReplicasData
+  m_EditorClassIdentifier: 
+  replicasData:
+  - description: Level1_Boss
+    replicaID: 1
+    level: 1
+    emotionImage: {fileID: 21300000, guid: 73d2a805f29a78a4e97d35f50aa77263, type: 3}
+    replicaTextLocalizationKey: rep_01
+    replicaSoundFile: Sounds/Replicas/king_zombie-001
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 7
+    replicaBubbleAnchorePos: {x: -40, y: -40}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 1
+  - description: Level1_Mage
+    replicaID: 2
+    level: 1
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_02
+    replicaSoundFile: Sounds/Replicas/mage-001
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level1_Completed_Enemy
+    replicaID: 3
+    level: 1
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_60
+    replicaSoundFile: Sounds/Replicas/King Bones-005-glued
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 0
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 35, y: 55}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level4_Mage1
+    replicaID: 31
+    level: 4
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_03
+    replicaSoundFile: Sounds/Replicas/mage-002
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 1
+  - description: Level2_Mage2
+    replicaID: 11
+    level: 2
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_04
+    replicaSoundFile: Sounds/Replicas/mage-003
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level2_Mage2_FirstCrystal1
+    replicaID: 13
+    level: 2
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_21
+    replicaSoundFile: Sounds/Replicas/mage-0001
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 0
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level2_Mage2_FirstCrystal2
+    replicaID: 14
+    level: 2
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_22
+    replicaSoundFile: Sounds/Replicas/mage-0002
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 0
+    showReplicaTime: 7
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level2_Enemy
+    replicaID: 12
+    level: 2
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_05
+    replicaSoundFile: Sounds/Replicas/red_mini_boss_001
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -45, y: -40}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level4_Enemy
+    replicaID: 30
+    level: 4
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_07
+    replicaSoundFile: Sounds/Replicas/king_zombie-003
+    delayPlayReplicaSound: 0.01
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: 40, y: 40}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level5_Enemy
+    replicaID: 40
+    level: 5
+    emotionImage: {fileID: 21300000, guid: 3615f49be8aaa8346abc922883e05d91, type: 3}
+    replicaTextLocalizationKey: rep_08
+    replicaSoundFile: Sounds/Replicas/king_zombie-004
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level7_Mage
+    replicaID: 60
+    level: 7
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_09
+    replicaSoundFile: Sounds/Replicas/mage-003
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level7_Enemy
+    replicaID: 61
+    level: 7
+    emotionImage: {fileID: 21300000, guid: 73d2a805f29a78a4e97d35f50aa77263, type: 3}
+    replicaTextLocalizationKey: rep_10
+    replicaSoundFile: Sounds/Replicas/fatty-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -45, y: -40}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level9_Mage
+    replicaID: 50
+    level: 9
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_11
+    replicaSoundFile: Sounds/Replicas/mage-004
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level11_Boss
+    replicaID: 70
+    level: 11
+    emotionImage: {fileID: 21300000, guid: 73d2a805f29a78a4e97d35f50aa77263, type: 3}
+    replicaTextLocalizationKey: rep_12
+    replicaSoundFile: Sounds/Replicas/king_zombie-005
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 70, y: 70}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level11_Mage
+    replicaID: 71
+    level: 11
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_13
+    replicaSoundFile: Sounds/Replicas/mage-005
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level15_Boss
+    replicaID: 80
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_14
+    replicaSoundFile: Sounds/Replicas/king_zombie-007
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 0, y: -40}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level15_Mage
+    replicaID: 81
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_15
+    replicaSoundFile: Sounds/Replicas/mage-006
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level15_Win_Mage
+    replicaID: 82
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_17
+    replicaSoundFile: Sounds/Replicas/mage-007
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: None
+    replicaID: 0
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: "rep_61\x13\x10"
+    replicaSoundFile: Sounds/Replicas/King Bones-005.1
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4.5
+    replicaBubbleAnchorePos: {x: 30, y: 35}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level15_Completed_Boss
+    replicaID: 84
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_18
+    replicaSoundFile: Sounds/Replicas/king_zombie-009
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 0
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 20, y: 18}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Shop_Bought_Magic_Any_Level3
+    replicaID: 100
+    level: 0
+    emotionImage: {fileID: 21300000, guid: 3615f49be8aaa8346abc922883e05d91, type: 3}
+    replicaTextLocalizationKey: rep_19
+    replicaSoundFile: Sounds/Replicas/king_zombie-010
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 0
+    showReplicaTime: 2
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Shop_Bought_Robe_Any
+    replicaID: 101
+    level: 0
+    emotionImage: {fileID: 21300000, guid: 3615f49be8aaa8346abc922883e05d91, type: 3}
+    replicaTextLocalizationKey: rep_20
+    replicaSoundFile: Sounds/Replicas/mage-0002
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 0
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level18_Mage
+    replicaID: 102
+    level: 45
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_23
+    replicaSoundFile: Sounds/Replicas/mage-008
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 0
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level20_Boss
+    replicaID: 103
+    level: 20
+    emotionImage: {fileID: 21300000, guid: fc350342c120982459e3ce25394b78eb, type: 3}
+    replicaTextLocalizationKey: rep_24
+    replicaSoundFile: Sounds/Replicas/King Bones-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 30, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level27_Boss
+    replicaID: 104
+    level: 27
+    emotionImage: {fileID: 21300000, guid: 7ad30f8704257db4cad47be93729e1bc, type: 3}
+    replicaTextLocalizationKey: rep_26
+    replicaSoundFile: Sounds/Replicas/King Bones-003
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: 60, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level27_Mage
+    replicaID: 105
+    level: 27
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_27
+    replicaSoundFile: Sounds/Replicas/mage-009
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level30_Boss
+    replicaID: 106
+    level: 30
+    emotionImage: {fileID: 21300000, guid: f6e8146e840a01a498e94000fb716c75, type: 3}
+    replicaTextLocalizationKey: rep_28
+    replicaSoundFile: Sounds/Replicas/King Bones-004
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -75, y: -25}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level30_Mage
+    replicaID: 107
+    level: 30
+    emotionImage: {fileID: 0}
+    replicaTextLocalizationKey: rep_29
+    replicaSoundFile: Sounds/Replicas/mage-010
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level30_Lose_Boss
+    replicaID: 108
+    level: 30
+    emotionImage: {fileID: 21300000, guid: 7ad30f8704257db4cad47be93729e1bc, type: 3}
+    replicaTextLocalizationKey: rep_30
+    replicaSoundFile: Sounds/Replicas/King Bones-005
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 60, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level33_Mage
+    replicaID: 109
+    level: 33
+    emotionImage: {fileID: 21300000, guid: 7ad30f8704257db4cad47be93729e1bc, type: 3}
+    replicaTextLocalizationKey: rep_31
+    replicaSoundFile: Sounds/Replicas/mage-011
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level41_Mage
+    replicaID: 110
+    level: 41
+    emotionImage: {fileID: 21300000, guid: 7ad30f8704257db4cad47be93729e1bc, type: 3}
+    replicaTextLocalizationKey: rep_32
+    replicaSoundFile: Sounds/Replicas/mage-012
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level45_Boss
+    replicaID: 111
+    level: 45
+    emotionImage: {fileID: 21300000, guid: edc1b5f9f3e15e14c93ed34fc1dd615a, type: 3}
+    replicaTextLocalizationKey: rep_33
+    replicaSoundFile: Sounds/Replicas/Horned King-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -70, y: -40}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level45_Mage
+    replicaID: 112
+    level: 45
+    emotionImage: {fileID: 21300000, guid: edc1b5f9f3e15e14c93ed34fc1dd615a, type: 3}
+    replicaTextLocalizationKey: rep_34
+    replicaSoundFile: Sounds/Replicas/mage-013
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level51_Mage
+    replicaID: 113
+    level: 51
+    emotionImage: {fileID: 21300000, guid: edc1b5f9f3e15e14c93ed34fc1dd615a, type: 3}
+    replicaTextLocalizationKey: rep_37
+    replicaSoundFile: Sounds/Replicas/mage-014
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level55_Mage
+    replicaID: 114
+    level: 55
+    emotionImage: {fileID: 21300000, guid: edc1b5f9f3e15e14c93ed34fc1dd615a, type: 3}
+    replicaTextLocalizationKey: rep_38
+    replicaSoundFile: Sounds/Replicas/mage-015
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level61_Mage
+    replicaID: 115
+    level: 61
+    emotionImage: {fileID: 21300000, guid: edc1b5f9f3e15e14c93ed34fc1dd615a, type: 3}
+    replicaTextLocalizationKey: rep_39
+    replicaSoundFile: Sounds/Replicas/mage-016
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level66_Boss
+    replicaID: 116
+    level: 66
+    emotionImage: {fileID: 21300000, guid: b603f88c4e5c0bc46879b2959f3fe9fd, type: 3}
+    replicaTextLocalizationKey: rep_40
+    replicaSoundFile: Sounds/Replicas/Ghoul Boss-003
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 20, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level70_Boss
+    replicaID: 117
+    level: 70
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_41
+    replicaSoundFile: Sounds/Replicas/Ghoul Boss-004
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 30, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level70_Boss2
+    replicaID: 118
+    level: 70
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_42
+    replicaSoundFile: Sounds/Replicas/Ghoul Boss-005
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 6
+    replicaBubbleAnchorePos: {x: -55, y: -10}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level70_Mage
+    replicaID: 119
+    level: 70
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_43
+    replicaSoundFile: Sounds/Replicas/mage-017
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level74_Mage
+    replicaID: 120
+    level: 74
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_44
+    replicaSoundFile: Sounds/Replicas/mage-018
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4.5
+    replicaBubbleAnchorePos: {x: -40, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level77_Boss
+    replicaID: 121
+    level: 77
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_45
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 40, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level84_Mage
+    replicaID: 122
+    level: 84
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_46
+    replicaSoundFile: Sounds/Replicas/mage-019
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level84_DemonFatty
+    replicaID: 123
+    level: 84
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_47
+    replicaSoundFile: Sounds/Replicas/DEMON FATTY-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -30, y: -30}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level89_DemonGrunt
+    replicaID: 124
+    level: 89
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_48
+    replicaSoundFile: Sounds/Replicas/DEMON GRUNT-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -100, y: -30}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level95_Mage
+    replicaID: 125
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_49
+    replicaSoundFile: Sounds/Replicas/mage-020
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level95_Mage2
+    replicaID: 126
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_51
+    replicaSoundFile: Sounds/Replicas/mage-027
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level95_Boss
+    replicaID: 127
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_50
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-003
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -30, y: -10}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level95_BossHp
+    replicaID: 128
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_52
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-004
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 20, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level95_Boss2
+    replicaID: 129
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_53
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-005
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 20, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Shop_Meteor_Upgrade
+    replicaID: 130
+    level: 0
+    emotionImage: {fileID: 21300000, guid: 94b12dce4b4c06044928b4168f7c6d30, type: 3}
+    replicaTextLocalizationKey: rep_36
+    replicaSoundFile: Sounds/Replicas/Ghoul Boss-002
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Shop_Blizzard_Upgrade
+    replicaID: 131
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f12421b14ef21c947ae769dd43d17c70, type: 3}
+    replicaTextLocalizationKey: rep_59
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-006
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: 60, y: 50}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Mage_Poution_Power_Use
+    replicaID: 132
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f12421b14ef21c947ae769dd43d17c70, type: 3}
+    replicaTextLocalizationKey: rep_58
+    replicaSoundFile: Sounds/Replicas/mage-026
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Mage_Poution_Mana_Use
+    replicaID: 133
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f12421b14ef21c947ae769dd43d17c70, type: 3}
+    replicaTextLocalizationKey: rep_56
+    replicaSoundFile: Sounds/Replicas/mage-024
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Mage_Blizzard_Use
+    replicaID: 135
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f12421b14ef21c947ae769dd43d17c70, type: 3}
+    replicaTextLocalizationKey: rep_54
+    replicaSoundFile: Sounds/Replicas/mage-022
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Mage_Meteor_Use
+    replicaID: 134
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f12421b14ef21c947ae769dd43d17c70, type: 3}
+    replicaTextLocalizationKey: rep_55
+    replicaSoundFile: Sounds/Replicas/mage-023
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level20_Boss_Map
+    replicaID: 136
+    level: 0
+    emotionImage: {fileID: 21300000, guid: f6e8146e840a01a498e94000fb716c75, type: 3}
+    replicaTextLocalizationKey: rep_25
+    replicaSoundFile: Sounds/Replicas/King Bones-002
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5.5
+    replicaBubbleAnchorePos: {x: -220, y: 40}
+    scale: 1.2
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level49_Boss_Map
+    replicaID: 137
+    level: 0
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_35
+    replicaSoundFile: Sounds/Replicas/Ghoul Boss-001
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -220, y: 40}
+    scale: 1.2
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level_95_start_wave_1
+    replicaID: 138
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_62
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-007
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4
+    replicaBubbleAnchorePos: {x: 25.4, y: 58}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level_95_finish
+    replicaID: 139
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_63
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-009
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 20, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level_95_killBoss
+    replicaID: 140
+    level: 95
+    emotionImage: {fileID: 21300000, guid: 306587c438864a1438dbe94e9d103f0e, type: 3}
+    replicaTextLocalizationKey: rep_64
+    replicaSoundFile: Sounds/Replicas/DEMON LORD-008
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: 20, y: 50}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0
+  - description: Level15_Lose_Boss
+    replicaID: 83
+    level: 15
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_61
+    replicaSoundFile: Sounds/Replicas/King Bones-005.1
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4.5
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1.1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level_kill_boss
+    replicaID: 141
+    level: -1
+    emotionImage: {fileID: 21300000, guid: ae9ae1594b68fc24bb6a65c11426821b, type: 3}
+    replicaTextLocalizationKey: rep_65
+    replicaSoundFile: Sounds/Replicas/Skeleton King_die 1
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 4.5
+    replicaBubbleAnchorePos: {x: -50, y: -20}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level_kill_boss_skelet
+    replicaID: 142
+    level: -1
+    emotionImage: {fileID: 21300000, guid: f6e8146e840a01a498e94000fb716c75, type: 3}
+    replicaTextLocalizationKey: rep_65
+    replicaSoundFile: Sounds/Replicas/King_Bones_Arr02
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: 50, y: 20}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level_kill_boss_ghul
+    replicaID: 143
+    level: -1
+    emotionImage: {fileID: 21300000, guid: effb74b242ea4ba4eb93c4f14b641bf8, type: 3}
+    replicaTextLocalizationKey: rep_65
+    replicaSoundFile: Sounds/Replicas/ghoul-boss_die_3
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: 30, y: 20}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level_kill_boss_demon
+    replicaID: 144
+    level: -1
+    emotionImage: {fileID: 21300000, guid: 7e3edd2f570f4004baf4c3e22a506928, type: 3}
+    replicaTextLocalizationKey: rep_65
+    replicaSoundFile: Sounds/Replicas/demon-lord_die_3
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: 20, y: 20}
+    scale: 1.2
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Level5_Mage
+    replicaID: 41
+    level: 5
+    emotionImage: {fileID: 21300000, guid: 7e3edd2f570f4004baf4c3e22a506928, type: 3}
+    replicaTextLocalizationKey: rep_66
+    replicaSoundFile: Sounds/Replicas/
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 3
+    replicaBubbleAnchorePos: {x: -50, y: -50}
+    scale: 1
+    FlipChatBubbleByX: 1
+    BlockPlayerInput: 1
+    RestartLevelMusic: 0
+  - description: Mage_Wall_Upgrade
+    replicaID: 145
+    level: 5
+    emotionImage: {fileID: 21300000, guid: c457d4e95a9331b4aaacb1097866fb11, type: 3}
+    replicaTextLocalizationKey: rep_67
+    replicaSoundFile: Sounds/Replicas/
+    delayPlayReplicaSound: 0.1
+    pauseTimeOnReplica: 1
+    showReplicaTime: 5
+    replicaBubbleAnchorePos: {x: 30, y: 60}
+    scale: 1
+    FlipChatBubbleByX: 0
+    BlockPlayerInput: 0
+    RestartLevelMusic: 0

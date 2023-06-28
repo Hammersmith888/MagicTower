@@ -1,0 +1,8107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb11c0841a072b46a6ee5fe2c3e903d, type: 3}
+  m_Name: BalanceTables
+  m_EditorClassIdentifier: 
+  spellParams:
+  - spellTableIndex: 0
+    name: Fire Ball1
+    element: Fire
+    level: 1
+    rank: 1
+    minDamage: 40
+    maxDamage: 40
+    reload: 8
+    manacost: 12
+    radius: 5
+    damageLength: 0
+    speed: 7
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 19
+    abilityEffect: 4
+    abilityTime: 6
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 500
+    cost_open: 5000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball2
+    element: Fire
+    level: 2
+    rank: 1
+    minDamage: 80
+    maxDamage: 80
+    reload: 8
+    manacost: 13
+    radius: 5
+    damageLength: 0
+    speed: 7
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 6
+    abilityTime: 6
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball3
+    element: Fire
+    level: 3
+    rank: 1
+    minDamage: 120
+    maxDamage: 120
+    reload: 8
+    manacost: 15
+    radius: 5.5
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 8
+    abilityTime: 8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball4
+    element: Fire
+    level: 4
+    rank: 1
+    minDamage: 150
+    maxDamage: 150
+    reload: 8
+    manacost: 16
+    radius: 5.5
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 22
+    abilityEffect: 10
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball5
+    element: Fire
+    level: 5
+    rank: 1
+    minDamage: 180
+    maxDamage: 180
+    reload: 8
+    manacost: 22
+    radius: 6
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 23
+    abilityEffect: 12
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball5
+    element: Fire
+    level: 6
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 8
+    manacost: 24
+    radius: 6
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 15
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball5
+    element: Fire
+    level: 7
+    rank: 1
+    minDamage: 250
+    maxDamage: 250
+    reload: 8
+    manacost: 24
+    radius: 6.5
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 20
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Ball5
+    element: Fire
+    level: 8
+    rank: 1
+    minDamage: 270
+    maxDamage: 270
+    reload: 8
+    manacost: 25
+    radius: 6.5
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 30
+    abilityEffect: 25
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting1
+    element: Air
+    level: 1
+    rank: 1
+    minDamage: 60
+    maxDamage: 60
+    reload: 8
+    manacost: 12
+    radius: 4
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 18
+    abilityEffect: 0
+    abilityTime: 2
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 5000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting2
+    element: Air
+    level: 2
+    rank: 1
+    minDamage: 90
+    maxDamage: 90
+    reload: 8
+    manacost: 13
+    radius: 4
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 0
+    abilityTime: 2.2
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1400
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting3
+    element: Air
+    level: 3
+    rank: 1
+    minDamage: 130
+    maxDamage: 130
+    reload: 8
+    manacost: 16
+    radius: 4
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 0
+    abilityTime: 2.4
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2800
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting4
+    element: Air
+    level: 4
+    rank: 1
+    minDamage: 170
+    maxDamage: 170
+    reload: 8
+    manacost: 18
+    radius: 4
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 22
+    abilityEffect: 0
+    abilityTime: 2.6
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 5600
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting5
+    element: Air
+    level: 5
+    rank: 1
+    minDamage: 190
+    maxDamage: 190
+    reload: 8
+    manacost: 23
+    radius: 5
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 1
+    abilityChance: 23
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting5
+    element: Air
+    level: 6
+    rank: 1
+    minDamage: 230
+    maxDamage: 230
+    reload: 8
+    manacost: 24
+    radius: 5
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 1
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting5
+    element: Air
+    level: 7
+    rank: 1
+    minDamage: 280
+    maxDamage: 280
+    reload: 8
+    manacost: 24
+    radius: 5
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 1
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 10000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Lighting5
+    element: Air
+    level: 8
+    rank: 1
+    minDamage: 330
+    maxDamage: 330
+    reload: 8
+    manacost: 25
+    radius: 5
+    damageLength: 0
+    speed: 20
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 1
+    abilityChance: 30
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt1
+    element: Water
+    level: 1
+    rank: 1
+    minDamage: 40
+    maxDamage: 40
+    reload: 8
+    manacost: 12
+    radius: 9
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 3
+    abilityChance: 18
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1000
+    cost_open: 5000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt2
+    element: Water
+    level: 2
+    rank: 1
+    minDamage: 60
+    maxDamage: 60
+    reload: 8
+    manacost: 13
+    radius: 9
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 4
+    abilityChance: 20
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt3
+    element: Water
+    level: 3
+    rank: 1
+    minDamage: 80
+    maxDamage: 80
+    reload: 8
+    manacost: 15
+    radius: 10
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 20
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt4
+    element: Water
+    level: 4
+    rank: 1
+    minDamage: 100
+    maxDamage: 100
+    reload: 8
+    manacost: 18
+    radius: 10
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 6
+    abilityChance: 22
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt5
+    element: Water
+    level: 5
+    rank: 1
+    minDamage: 120
+    maxDamage: 120
+    reload: 8
+    manacost: 23
+    radius: 10
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 23
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 10000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt5
+    element: Water
+    level: 6
+    rank: 1
+    minDamage: 145
+    maxDamage: 145
+    reload: 8
+    manacost: 24
+    radius: 11
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt5
+    element: Water
+    level: 7
+    rank: 1
+    minDamage: 175
+    maxDamage: 175
+    reload: 8
+    manacost: 24
+    radius: 11
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Bolt5
+    element: Water
+    level: 8
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 8
+    manacost: 25
+    radius: 11
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 30
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball1
+    element: Earth
+    level: 1
+    rank: 1
+    minDamage: 50
+    maxDamage: 50
+    reload: 8
+    manacost: 12
+    radius: 5
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 18
+    abilityEffect: 5
+    abilityTime: 2
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1250
+    cost_open: 15000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball2
+    element: Earth
+    level: 2
+    rank: 1
+    minDamage: 60
+    maxDamage: 60
+    reload: 12
+    manacost: 13
+    radius: 5
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 7
+    abilityTime: 2.5
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball3
+    element: Earth
+    level: 3
+    rank: 1
+    minDamage: 80
+    maxDamage: 80
+    reload: 15
+    manacost: 15
+    radius: 5.5
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 20
+    abilityEffect: 11
+    abilityTime: 3
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 5000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball4
+    element: Earth
+    level: 4
+    rank: 1
+    minDamage: 100
+    maxDamage: 100
+    reload: 18
+    manacost: 18
+    radius: 5.5
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 22
+    abilityEffect: 12
+    abilityTime: 3.5
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball5
+    element: Earth
+    level: 5
+    rank: 1
+    minDamage: 120
+    maxDamage: 120
+    reload: 25
+    manacost: 23
+    radius: 6
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 23
+    abilityEffect: 15
+    abilityTime: 4
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball5
+    element: Earth
+    level: 6
+    rank: 1
+    minDamage: 145
+    maxDamage: 145
+    reload: 28
+    manacost: 24
+    radius: 6
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 15
+    abilityTime: 4.2
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball5
+    element: Earth
+    level: 7
+    rank: 1
+    minDamage: 175
+    maxDamage: 175
+    reload: 35
+    manacost: 24
+    radius: 7
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 20
+    abilityTime: 4.6
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Earth Ball5
+    element: Earth
+    level: 8
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 45
+    manacost: 25
+    radius: 7
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 30
+    abilityEffect: 25
+    abilityTime: 5
+    timeOfSecondEffect: 10
+    chanceAbility2: 100
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall1
+    element: Fire
+    level: 1
+    rank: 2
+    minDamage: 35
+    maxDamage: 35
+    reload: 115
+    manacost: 32
+    radius: 30
+    damageLength: 0
+    speed: 10
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 9
+    abilityChance: 100
+    abilityEffect: 8
+    abilityTime: 13
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 15000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall2
+    element: Fire
+    level: 2
+    rank: 2
+    minDamage: 40
+    maxDamage: 40
+    reload: 125
+    manacost: 35
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 10
+    abilityChance: 100
+    abilityEffect: 8
+    abilityTime: 13
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall3
+    element: Fire
+    level: 3
+    rank: 2
+    minDamage: 50
+    maxDamage: 50
+    reload: 135
+    manacost: 35
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 11
+    abilityChance: 100
+    abilityEffect: 12
+    abilityTime: 14
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall4
+    element: Fire
+    level: 4
+    rank: 2
+    minDamage: 60
+    maxDamage: 60
+    reload: 140
+    manacost: 40
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 12
+    abilityChance: 100
+    abilityEffect: 12
+    abilityTime: 14
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall5
+    element: Fire
+    level: 5
+    rank: 2
+    minDamage: 70
+    maxDamage: 70
+    reload: 150
+    manacost: 40
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 12
+    abilityChance: 100
+    abilityEffect: 15
+    abilityTime: 15
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall5
+    element: Fire
+    level: 6
+    rank: 2
+    minDamage: 80
+    maxDamage: 80
+    reload: 160
+    manacost: 40
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 14
+    abilityChance: 100
+    abilityEffect: 15
+    abilityTime: 15
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 14000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall5
+    element: Fire
+    level: 7
+    rank: 2
+    minDamage: 100
+    maxDamage: 100
+    reload: 170
+    manacost: 40
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 14
+    abilityChance: 100
+    abilityEffect: 20
+    abilityTime: 15
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Fire Wall5
+    element: Fire
+    level: 8
+    rank: 2
+    minDamage: 120
+    maxDamage: 120
+    reload: 170
+    manacost: 40
+    radius: 30
+    damageLength: 0
+    speed: 8
+    parts: 0
+    spellAngle: 0
+    spellHeight: 30
+    spellTime: 14
+    abilityChance: 100
+    abilityEffect: 30
+    abilityTime: 17
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 17500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting1
+    element: Air
+    level: 1
+    rank: 2
+    minDamage: 70
+    maxDamage: 70
+    reload: 23
+    manacost: 32
+    radius: 20
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 10
+    abilityEffect: 0
+    abilityTime: 2
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1750
+    cost_open: 25000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting2
+    element: Air
+    level: 2
+    rank: 2
+    minDamage: 85
+    maxDamage: 85
+    reload: 20
+    manacost: 30
+    radius: 22
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 12
+    abilityEffect: 0
+    abilityTime: 2.2
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting3
+    element: Air
+    level: 3
+    rank: 2
+    minDamage: 120
+    maxDamage: 120
+    reload: 22
+    manacost: 30
+    radius: 22
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 15
+    abilityEffect: 0
+    abilityTime: 2.4
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting4
+    element: Air
+    level: 4
+    rank: 2
+    minDamage: 140
+    maxDamage: 140
+    reload: 22
+    manacost: 28
+    radius: 22
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 19
+    abilityEffect: 0
+    abilityTime: 2.6
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 14000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting5
+    element: Air
+    level: 5
+    rank: 2
+    minDamage: 160
+    maxDamage: 160
+    reload: 23
+    manacost: 25
+    radius: 25
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 22
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting5
+    element: Air
+    level: 6
+    rank: 2
+    minDamage: 190
+    maxDamage: 190
+    reload: 24
+    manacost: 25
+    radius: 25
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 17500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting5
+    element: Air
+    level: 7
+    rank: 2
+    minDamage: 230
+    maxDamage: 230
+    reload: 25
+    manacost: 25
+    radius: 25
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 30
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 19000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Chain Lighting5
+    element: Air
+    level: 8
+    rank: 2
+    minDamage: 280
+    maxDamage: 280
+    reload: 28
+    manacost: 23
+    radius: 25
+    damageLength: 0
+    speed: 5
+    parts: 0
+    spellAngle: 0
+    spellHeight: 6
+    spellTime: 0
+    abilityChance: 35
+    abilityEffect: 0
+    abilityTime: 2.8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 22000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath1
+    element: Water
+    level: 1
+    rank: 2
+    minDamage: 50
+    maxDamage: 50
+    reload: 90
+    manacost: 33
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 3
+    abilityChance: 50
+    abilityEffect: 8
+    abilityTime: 0
+    timeOfSecondEffect: 5
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 30000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath2
+    element: Water
+    level: 2
+    rank: 2
+    minDamage: 60
+    maxDamage: 60
+    reload: 100
+    manacost: 38
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 3.5
+    abilityChance: 50
+    abilityEffect: 8
+    abilityTime: 0
+    timeOfSecondEffect: 5.5
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath3
+    element: Water
+    level: 3
+    rank: 2
+    minDamage: 70
+    maxDamage: 70
+    reload: 105
+    manacost: 35
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 4
+    abilityChance: 30
+    abilityEffect: 12
+    abilityTime: 0
+    timeOfSecondEffect: 6
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath4
+    element: Water
+    level: 4
+    rank: 2
+    minDamage: 80
+    maxDamage: 80
+    reload: 110
+    manacost: 40
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 4.5
+    abilityChance: 30
+    abilityEffect: 12
+    abilityTime: 0
+    timeOfSecondEffect: 6.5
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath5
+    element: Water
+    level: 5
+    rank: 2
+    minDamage: 100
+    maxDamage: 100
+    reload: 115
+    manacost: 40
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 5
+    abilityChance: 30
+    abilityEffect: 15
+    abilityTime: 0
+    timeOfSecondEffect: 7
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 18000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath5
+    element: Water
+    level: 6
+    rank: 2
+    minDamage: 120
+    maxDamage: 120
+    reload: 130
+    manacost: 40
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 5.5
+    abilityChance: 30
+    abilityEffect: 15
+    abilityTime: 0
+    timeOfSecondEffect: 7.5
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 19000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath5
+    element: Water
+    level: 7
+    rank: 2
+    minDamage: 140
+    maxDamage: 140
+    reload: 140
+    manacost: 40
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 6
+    abilityChance: 30
+    abilityEffect: 20
+    abilityTime: 0
+    timeOfSecondEffect: 8
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 20000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Ice Breath5
+    element: Water
+    level: 8
+    rank: 2
+    minDamage: 160
+    maxDamage: 160
+    reload: 145
+    manacost: 40
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 10
+    spellTime: 6.5
+    abilityChance: 30
+    abilityEffect: 30
+    abilityTime: 0
+    timeOfSecondEffect: 10
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 22000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone1
+    element: Earth
+    level: 1
+    rank: 1
+    minDamage: 90
+    maxDamage: 90
+    reload: 15
+    manacost: 18
+    radius: 9
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2500
+    cost_open: 45000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone2
+    element: Earth
+    level: 2
+    rank: 1
+    minDamage: 110
+    maxDamage: 110
+    reload: 12
+    manacost: 23
+    radius: 9
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone3
+    element: Earth
+    level: 3
+    rank: 1
+    minDamage: 130
+    maxDamage: 130
+    reload: 15
+    manacost: 25
+    radius: 10
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone4
+    element: Earth
+    level: 4
+    rank: 1
+    minDamage: 150
+    maxDamage: 150
+    reload: 18
+    manacost: 30
+    radius: 10
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone5
+    element: Earth
+    level: 5
+    rank: 1
+    minDamage: 180
+    maxDamage: 180
+    reload: 25
+    manacost: 35
+    radius: 10
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone5
+    element: Earth
+    level: 6
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 28
+    manacost: 38
+    radius: 11
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 18000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone5
+    element: Earth
+    level: 7
+    rank: 1
+    minDamage: 250
+    maxDamage: 250
+    reload: 35
+    manacost: 40
+    radius: 11
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 20000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Rolling Stone5
+    element: Earth
+    level: 8
+    rank: 1
+    minDamage: 300
+    maxDamage: 300
+    reload: 45
+    manacost: 45
+    radius: 11
+    damageLength: 0
+    speed: 50
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 22000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 1
+    rank: 1
+    minDamage: 450
+    maxDamage: 450
+    reload: 150
+    manacost: 38
+    radius: 2
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 50
+    abilityEffect: 10
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 38000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 2
+    rank: 1
+    minDamage: 480
+    maxDamage: 480
+    reload: 200
+    manacost: 45
+    radius: 2
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 50
+    abilityEffect: 12
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 3
+    rank: 1
+    minDamage: 550
+    maxDamage: 550
+    reload: 220
+    manacost: 50
+    radius: 2
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 50
+    abilityEffect: 14
+    abilityTime: 8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 4
+    rank: 1
+    minDamage: 600
+    maxDamage: 600
+    reload: 240
+    manacost: 55
+    radius: 2
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 50
+    abilityEffect: 17
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 5
+    rank: 1
+    minDamage: 700
+    maxDamage: 700
+    reload: 245
+    manacost: 60
+    radius: 3
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 50
+    abilityEffect: 20
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 14000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 6
+    rank: 1
+    minDamage: 800
+    maxDamage: 800
+    reload: 250
+    manacost: 70
+    radius: 3
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 50
+    abilityEffect: 24
+    abilityTime: 15
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 7
+    rank: 1
+    minDamage: 900
+    maxDamage: 900
+    reload: 255
+    manacost: 75
+    radius: 3
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 50
+    abilityEffect: 29
+    abilityTime: 15
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 17000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Meteor
+    element: Earth
+    level: 8
+    rank: 1
+    minDamage: 1000
+    maxDamage: 1000
+    reload: 260
+    manacost: 85
+    radius: 4
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 8
+    abilityChance: 50
+    abilityEffect: 35
+    abilityTime: 20
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 20000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 1
+    rank: 1
+    minDamage: 100
+    maxDamage: 100
+    reload: 30
+    manacost: 35
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 10
+    abilityEffect: 20
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1750
+    cost_open: 30000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 2
+    rank: 1
+    minDamage: 120
+    maxDamage: 120
+    reload: 28
+    manacost: 35
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 10
+    abilityEffect: 24
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 3
+    rank: 1
+    minDamage: 150
+    maxDamage: 150
+    reload: 26
+    manacost: 30
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 10
+    abilityEffect: 30
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 4
+    rank: 1
+    minDamage: 160
+    maxDamage: 160
+    reload: 26
+    manacost: 30
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 6
+    abilityChance: 10
+    abilityEffect: 32
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 5
+    rank: 1
+    minDamage: 180
+    maxDamage: 180
+    reload: 26
+    manacost: 28
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 10
+    abilityEffect: 36
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 6
+    rank: 1
+    minDamage: 200
+    maxDamage: 200
+    reload: 26
+    manacost: 28
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 10
+    abilityEffect: 40
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 7
+    rank: 1
+    minDamage: 250
+    maxDamage: 250
+    reload: 25
+    manacost: 25
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 10
+    abilityEffect: 50
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: ElectricPool
+    element: Air
+    level: 8
+    rank: 1
+    minDamage: 300
+    maxDamage: 300
+    reload: 25
+    manacost: 25
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 8
+    abilityChance: 10
+    abilityEffect: 60
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 14000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 1
+    rank: 1
+    minDamage: 50
+    maxDamage: 50
+    reload: 70
+    manacost: 40
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 4
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 45000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 2
+    rank: 1
+    minDamage: 70
+    maxDamage: 70
+    reload: 75
+    manacost: 38
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 4
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 3
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 3
+    rank: 1
+    minDamage: 100
+    maxDamage: 100
+    reload: 80
+    manacost: 37
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 4
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 3.5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 4
+    rank: 1
+    minDamage: 150
+    maxDamage: 150
+    reload: 85
+    manacost: 36
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 4
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 5
+    rank: 1
+    minDamage: 180
+    maxDamage: 180
+    reload: 90
+    manacost: 35
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 4
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 17000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 6
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 95
+    manacost: 35
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 4.5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 18000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 7
+    rank: 1
+    minDamage: 260
+    maxDamage: 260
+    reload: 100
+    manacost: 33
+    radius: 14
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 19500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Blizzard
+    element: Water
+    level: 8
+    rank: 1
+    minDamage: 330
+    maxDamage: 330
+    reload: 110
+    manacost: 30
+    radius: 15
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 5
+    abilityChance: 25
+    abilityEffect: 0
+    abilityTime: 5
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 21000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 1
+    rank: 1
+    minDamage: 160
+    maxDamage: 160
+    reload: 160
+    manacost: 55
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 32
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2250
+    cost_open: 30000
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 2
+    rank: 1
+    minDamage: 165
+    maxDamage: 165
+    reload: 140
+    manacost: 45
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 33
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 3
+    rank: 1
+    minDamage: 180
+    maxDamage: 180
+    reload: 130
+    manacost: 45
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 36
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 4
+    rank: 1
+    minDamage: 210
+    maxDamage: 210
+    reload: 120
+    manacost: 40
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 42
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 5
+    rank: 1
+    minDamage: 250
+    maxDamage: 250
+    reload: 120
+    manacost: 40
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 50
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 6
+    rank: 1
+    minDamage: 300
+    maxDamage: 300
+    reload: 120
+    manacost: 40
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 60
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 7
+    rank: 1
+    minDamage: 330
+    maxDamage: 330
+    reload: 110
+    manacost: 38
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 66
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 18000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: FireDragon
+    element: Fire
+    level: 8
+    rank: 1
+    minDamage: 400
+    maxDamage: 400
+    reload: 90
+    manacost: 35
+    radius: 10
+    damageLength: 0
+    speed: 40
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 0
+    abilityChance: 25
+    abilityEffect: 80
+    abilityTime: 9999
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 21000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray1
+    element: Earth
+    level: 1
+    rank: 2
+    minDamage: 50
+    maxDamage: 50
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray2
+    element: Earth
+    level: 2
+    rank: 2
+    minDamage: 60
+    maxDamage: 60
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray3
+    element: Earth
+    level: 3
+    rank: 2
+    minDamage: 72
+    maxDamage: 72
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray4
+    element: Earth
+    level: 4
+    rank: 2
+    minDamage: 86.4
+    maxDamage: 86.4
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray5
+    element: Earth
+    level: 5
+    rank: 2
+    minDamage: 103.68
+    maxDamage: 103.68
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray5
+    element: Earth
+    level: 6
+    rank: 2
+    minDamage: 124.416
+    maxDamage: 124.416
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray5
+    element: Earth
+    level: 7
+    rank: 2
+    minDamage: 149.2992
+    maxDamage: 149.2992
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Spray5
+    element: Earth
+    level: 8
+    rank: 2
+    minDamage: 179.15904
+    maxDamage: 179.15904
+    reload: 8
+    manacost: 18
+    radius: 5
+    damageLength: 0
+    speed: 25
+    parts: 4
+    spellAngle: 45
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 20
+    abilityEffect: 10
+    abilityTime: 50
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 0
+    cost_open: 0
+    cost_buy: 0
+  scrollParameters:
+  - spellTableIndex: 0
+    name: Acid Puddle1
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 60
+    maxDamage: 60
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 70
+    abilityChance: 100
+    abilityEffect: 30
+    abilityTime: 7
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 400
+    cost_open: 5000
+    cost_buy: 150
+  - spellTableIndex: 0
+    name: Acid Puddle2
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 70
+    maxDamage: 70
+    reload: 0
+    manacost: 0
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 80
+    abilityChance: 100
+    abilityEffect: 30
+    abilityTime: 7
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 750
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle3
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 85
+    maxDamage: 85
+    reload: 0
+    manacost: 0
+    radius: 12
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 90
+    abilityChance: 100
+    abilityEffect: 30
+    abilityTime: 8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle4
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 100
+    maxDamage: 100
+    reload: 0
+    manacost: 0
+    radius: 13
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 110
+    abilityChance: 100
+    abilityEffect: 30
+    abilityTime: 8
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle5
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 120
+    maxDamage: 120
+    reload: 0
+    manacost: 0
+    radius: 14
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 120
+    abilityChance: 100
+    abilityEffect: 40
+    abilityTime: 10
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle6
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 140
+    maxDamage: 140
+    reload: 0
+    manacost: 0
+    radius: 15
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 125
+    abilityChance: 100
+    abilityEffect: 40
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6750
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle7
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 160
+    maxDamage: 160
+    reload: 0
+    manacost: 0
+    radius: 15
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 130
+    abilityChance: 100
+    abilityEffect: 45
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Acid Puddle8
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 185
+    maxDamage: 185
+    reload: 0
+    manacost: 0
+    radius: 15
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 140
+    abilityChance: 100
+    abilityEffect: 50
+    abilityTime: 12
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 80
+    maxDamage: 80
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 800
+    cost_open: 7500
+    cost_buy: 200
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 96
+    maxDamage: 96
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 115.2
+    maxDamage: 115.2
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 138.24
+    maxDamage: 138.24
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 165.888
+    maxDamage: 165.888
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6750
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 199.0656
+    maxDamage: 199.0656
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 238.87872
+    maxDamage: 238.87872
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: "\u0412arrier"
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 286.65445
+    maxDamage: 286.65445
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 600
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 18000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 15
+    maxDamage: 15
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 50
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 70
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 1500
+    cost_open: 10000
+    cost_buy: 250
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 18
+    maxDamage: 18
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 60
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 80
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 21.6
+    maxDamage: 21.6
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 70
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 90
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 6000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 25.92
+    maxDamage: 25.92
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 75
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 100
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 31.104
+    maxDamage: 31.104
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 80
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 102
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 37.3248
+    maxDamage: 37.3248
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 80
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 105
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 44.78976
+    maxDamage: 44.78976
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 85
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 110
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 13500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Frozen Ring
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 53.74771
+    maxDamage: 53.74771
+    reload: 0
+    manacost: 0
+    radius: 20
+    damageLength: 0
+    speed: 0
+    parts: 1
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 90
+    abilityChance: 100
+    abilityEffect: 0
+    abilityTime: 115
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 75
+    maxDamage: 75
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 3
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 15000
+    cost_buy: 300
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 90
+    maxDamage: 90
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 3
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 108
+    maxDamage: 108
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 4
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 129.6
+    maxDamage: 129.6
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 4
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 155.52
+    maxDamage: 155.52
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 5
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 5500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 186.624
+    maxDamage: 186.624
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 5
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 223.9488
+    maxDamage: 223.9488
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 5
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Mine Field
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 268.73856
+    maxDamage: 268.73856
+    reload: 0
+    manacost: 0
+    radius: 10
+    damageLength: 0
+    speed: 0
+    parts: 6
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 300
+    abilityChance: 0
+    abilityEffect: 0
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 1
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 0
+    abilityEffect: 28
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 20000
+    cost_buy: 300
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 2
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 0
+    abilityEffect: 30
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 3000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 2
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 0
+    abilityEffect: 33
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 3
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 12
+    abilityChance: 0
+    abilityEffect: 35
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 5000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 3
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 14
+    abilityChance: 0
+    abilityEffect: 38
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 7500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 16
+    abilityChance: 0
+    abilityEffect: 40
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 9000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 18
+    abilityChance: 0
+    abilityEffect: 45
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Hypno
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 21
+    abilityChance: 0
+    abilityEffect: 50
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 1
+    rank: 2
+    minDamage: 1
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 7
+    abilityChance: 0
+    abilityEffect: 30
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 2000
+    cost_open: 25000
+    cost_buy: 300
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 2
+    rank: 2
+    minDamage: 2
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 0
+    abilityEffect: 35
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 4000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 3
+    rank: 2
+    minDamage: 2
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 10
+    abilityChance: 0
+    abilityEffect: 38
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 8000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 4
+    rank: 2
+    minDamage: 3
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 12
+    abilityChance: 0
+    abilityEffect: 42
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 10000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 5
+    rank: 2
+    minDamage: 3
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 14
+    abilityChance: 0
+    abilityEffect: 47
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 11500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 6
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 16
+    abilityChance: 0
+    abilityEffect: 52
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 12500
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 7
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 18
+    abilityChance: 0
+    abilityEffect: 57
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 15000
+    cost_open: 0
+    cost_buy: 0
+  - spellTableIndex: 0
+    name: Haste
+    element: Scroll
+    level: 8
+    rank: 2
+    minDamage: 4
+    maxDamage: 0
+    reload: 0
+    manacost: 0
+    radius: 0
+    damageLength: 0
+    speed: 0
+    parts: 0
+    spellAngle: 0
+    spellHeight: 0
+    spellTime: 21
+    abilityChance: 0
+    abilityEffect: 60
+    abilityTime: 0
+    timeOfSecondEffect: 0
+    chanceAbility2: 0
+    abilityDamage: 0
+    abilityRadius: 0
+    upg_cost: 16500
+    cost_open: 0
+    cost_buy: 0
+  enemyParams:
+  - Name: zombie_walk_1
+    health: 90
+    regeneration: 0
+    armor: 0
+    dpStrike: 3
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 11
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: zombie_walk_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: zombie_walk_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_big_1
+    health: 215
+    regeneration: 0
+    armor: 0
+    dpStrike: 7
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 11
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 30
+    metamorphName: zombie_crawling_1
+    resistanceFire: 0
+    resistanceAir: 15
+    resistanceWater: 15
+    resistanceEarth: 0
+    vulnerabilityFire: 5
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: zombie_big_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 30
+    metamorphName: zombie_crawling_2
+    resistanceFire: 20
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 1
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_big_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 30
+    metamorphName: zombie_crawling_3
+    resistanceFire: 20
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 1
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: zombie_crawling_1
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 5
+    dpSpecialStrike: 0
+    attackSpeed: 0.5
+    radius: 0
+    speed: 21
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 1
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 2
+    indexFreeze: 0
+  - Name: zombie_crawling_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 1
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: zombie_crawling_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 1
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_snapper_1
+    health: 45
+    regeneration: 0
+    armor: 0
+    dpStrike: 4
+    dpSpecialStrike: 0
+    attackSpeed: 0.4
+    radius: 0
+    speed: 20
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 25
+    resistanceWater: 5
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 10
+    gold: 2
+    indexFreeze: 0
+  - Name: zombie_snapper_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: zombie_snapper_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_murderer_1
+    health: 230
+    regeneration: 0
+    armor: 0
+    dpStrike: 8
+    dpSpecialStrike: 0
+    attackSpeed: 4
+    radius: 0
+    speed: 14
+    specialSpeed: 0
+    rangeDistanceMin: 3
+    rangeDistanceMax: 7
+    ability: archer
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 15
+    resistanceAir: 25
+    resistanceWater: 0
+    resistanceEarth: 35
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 15
+    vulnerabilityEarth: 0
+    gold: 2
+    indexFreeze: 0
+  - Name: zombie_murderer_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: zombie_murderer_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_fatty_1
+    health: 580
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 7
+    attackSpeed: 1.9
+    radius: 0
+    speed: 7
+    specialSpeed: 22
+    rangeDistanceMin: 4
+    rangeDistanceMax: 6
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 10
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 8
+    indexFreeze: 0
+  - Name: zombie_fatty_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 0
+    resistanceWater: 40
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 8
+    indexFreeze: 0
+  - Name: zombie_fatty_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 0
+    resistanceWater: 40
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 12
+    indexFreeze: 0
+  - Name: Zombie_king_1
+    health: 10000
+    regeneration: 0
+    armor: 0
+    dpStrike: 60
+    dpSpecialStrike: 0
+    attackSpeed: 1.4
+    radius: 0
+    speed: 10
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 25
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 300
+    indexFreeze: 2
+  - Name: zombie_boss_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 700
+    indexFreeze: 0
+  - Name: zombie_boss_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1000
+    indexFreeze: 0
+  - Name: skeleton_mage_1
+    health: 210
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 1.5
+    radius: 0
+    speed: 11
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 10
+    indexFreeze: 0
+  - Name: skeleton_mage_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 60
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 15
+    indexFreeze: 0
+  - Name: skeleton_mage_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 60
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: zombie_brain_1
+    health: 50
+    regeneration: 0
+    armor: 0
+    dpStrike: 3
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 17
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: zombie_brain_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: zombie_brain_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: skeleton_swordsman_1
+    health: 200
+    regeneration: 0
+    armor: 0
+    dpStrike: 11
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 9
+    specialSpeed: 19
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 5
+    resistanceWater: 10
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 10
+    gold: 3
+    indexFreeze: 0
+  - Name: skeleton_swordsman_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 30
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: skeleton_swordsman_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 30
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: skeleton_archer_1
+    health: 250
+    regeneration: 0
+    armor: 0
+    dpStrike: 5
+    dpSpecialStrike: 0
+    attackSpeed: 1.2
+    radius: 0
+    speed: 10
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 5
+    resistanceWater: 10
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: skeleton_archer_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 30
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: skeleton_archer_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 30
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: skeleton_grunt_1
+    health: 700
+    regeneration: 0
+    armor: 0
+    dpStrike: 22
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 13
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 20
+    resistanceWater: 50
+    resistanceEarth: 15
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: skeleton_grunt_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 8
+    indexFreeze: 0
+  - Name: skeleton_grunt_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 12
+    indexFreeze: 0
+  - Name: skeleton_strong_mage_1
+    health: 700
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 13
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 50
+    resistanceAir: 0
+    resistanceWater: 20
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 20
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 12
+    indexFreeze: 0
+  - Name: skeleton_strong_mage_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 70
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 40
+    indexFreeze: 0
+  - Name: skeleton_strong_mage_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 70
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 60
+    indexFreeze: 0
+  - Name: skeleton_tom_1
+    health: 80
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 17
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 10
+    resistanceWater: 0
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 30
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: skeleton_tom_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: skeleton_tom_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: Zombie_burned_king_2
+    health: 15000
+    regeneration: 0
+    armor: 0
+    dpStrike: 70
+    dpSpecialStrike: 0
+    attackSpeed: 16
+    radius: 0
+    speed: 11
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 25
+    resistanceAir: 30
+    resistanceWater: 10
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 600
+    indexFreeze: 2
+  - Name: skeleton_king_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1000
+    indexFreeze: 0
+  - Name: skeleton_king_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1500
+    indexFreeze: 0
+  - Name: skeleton_mage2_1
+    health: 170
+    regeneration: 0
+    armor: 0
+    dpStrike: 15
+    dpSpecialStrike: 0
+    attackSpeed: 1.5
+    radius: 0
+    speed: 8.5
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 60
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 10
+    indexFreeze: 0
+  - Name: skeleton_mage2_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 60
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 15
+    indexFreeze: 0
+  - Name: skeleton_mage2_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 60
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: skeleton_strong_mage2_1
+    health: 250
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 9
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: skeleton_strong_mage2_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 70
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 40
+    indexFreeze: 0
+  - Name: skeleton_strong_mage2_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 40
+    resistanceWater: 70
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 60
+    indexFreeze: 0
+  - Name: ghoul_scavenger_1
+    health: 480
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 0
+    attackSpeed: 2
+    radius: 0
+    speed: 21
+    specialSpeed: 0
+    rangeDistanceMin: 3
+    rangeDistanceMax: 7
+    ability: archer
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 35
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 2
+    indexFreeze: 0
+  - Name: ghoul_scavenger_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: ghoul_scavenger_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: demon_imp_1
+    health: 500
+    regeneration: 0
+    armor: 0
+    dpStrike: 2
+    dpSpecialStrike: 0
+    attackSpeed: 0.4
+    radius: 0
+    speed: 18
+    specialSpeed: 24
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 85
+    resistanceAir: 15
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 20
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: demon_imp_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 80
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: demon_imp_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 80
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: demon_grunt_1
+    health: 700
+    regeneration: 0
+    armor: 0
+    dpStrike: 24
+    dpSpecialStrike: 20
+    attackSpeed: 1
+    radius: 0
+    speed: 14
+    specialSpeed: 19
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: demon_grunt_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 90
+    resistanceAir: 50
+    resistanceWater: 0
+    resistanceEarth: 40
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: demon_grunt_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 90
+    resistanceAir: 50
+    resistanceWater: 0
+    resistanceEarth: 40
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: demon_fatty_1
+    health: 3000
+    regeneration: 0
+    armor: 0
+    dpStrike: 14
+    dpSpecialStrike: 0
+    attackSpeed: 1.5
+    radius: 0
+    speed: 8.5
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 15
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 10
+    indexFreeze: 0
+  - Name: demon_fatty_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 15
+    indexFreeze: 0
+  - Name: demon_fatty_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 20
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: demon_bomb_1
+    health: 900
+    regeneration: 0
+    armor: 0
+    dpStrike: 12
+    dpSpecialStrike: 20
+    attackSpeed: 2
+    radius: 0
+    speed: 9.4
+    specialSpeed: 38
+    rangeDistanceMin: 4
+    rangeDistanceMax: 6
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 60
+    resistanceAir: 0
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 15
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 15
+    gold: 4
+    indexFreeze: 0
+  - Name: demon_bomb_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 80
+    resistanceAir: 60
+    resistanceWater: 0
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 8
+    indexFreeze: 0
+  - Name: demon_bomb_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 80
+    resistanceAir: 60
+    resistanceWater: 0
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 12
+    indexFreeze: 0
+  - Name: Demon_boss
+    health: 35000
+    regeneration: 0
+    armor: 0
+    dpStrike: 90
+    dpSpecialStrike: 0
+    attackSpeed: 1.6
+    radius: 0
+    speed: 12.5
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 50
+    resistanceAir: 20
+    resistanceWater: 20
+    resistanceEarth: 50
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1250
+    indexFreeze: 2
+  - Name: demon_boss_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 100
+    resistanceAir: 40
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1000
+    indexFreeze: 0
+  - Name: demon_boss_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 100
+    resistanceAir: 40
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1500
+    indexFreeze: 0
+  - Name: ghoul_1
+    health: 550
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 20
+    attackSpeed: 1
+    radius: 0
+    speed: 10.5
+    specialSpeed: 19
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 25
+    resistanceAir: 20
+    resistanceWater: 10
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: ghoul_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 50
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: ghoul_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 50
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: ghoul_grotesque_1
+    health: 750
+    regeneration: 0
+    armor: 0
+    dpStrike: 20
+    dpSpecialStrike: 0
+    attackSpeed: 2
+    radius: 0
+    speed: 10
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 50
+    resistanceAir: 0
+    resistanceWater: 35
+    resistanceEarth: 35
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 10
+    indexFreeze: 0
+  - Name: ghoul_grotesque_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 60
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 15
+    indexFreeze: 0
+  - Name: ghoul_grotesque_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 60
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: ghoul_festering_1
+    health: 900
+    regeneration: 0
+    armor: 0
+    dpStrike: 15
+    dpSpecialStrike: 0
+    attackSpeed: 1.5
+    radius: 0
+    speed: 10
+    specialSpeed: 0
+    rangeDistanceMin: 5
+    rangeDistanceMax: 7
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 25
+    resistanceAir: 35
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 10
+    indexFreeze: 0
+  - Name: ghoul_festering_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 20
+    resistanceWater: 30
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 15
+    indexFreeze: 0
+  - Name: ghoul_festering_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 20
+    resistanceWater: 30
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 20
+    indexFreeze: 0
+  - Name: Ghoul_boss
+    health: 28000
+    regeneration: 0
+    armor: 0
+    dpStrike: 60
+    dpSpecialStrike: 0
+    attackSpeed: 1.5
+    radius: 0
+    speed: 10
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 40
+    resistanceAir: 30
+    resistanceWater: 50
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 750
+    indexFreeze: 2
+  - Name: ghoul_boss_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 60
+    resistanceEarth: 50
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1000
+    indexFreeze: 0
+  - Name: ghoul_boss_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 30
+    resistanceWater: 60
+    resistanceEarth: 50
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1500
+    indexFreeze: 0
+  - Name: Skeleton_king
+    health: 15000
+    regeneration: 0
+    armor: 0
+    dpStrike: 50
+    dpSpecialStrike: 0
+    attackSpeed: 1.3
+    radius: 0
+    speed: 9.2
+    specialSpeed: 12
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 10
+    resistanceWater: 40
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 500
+    indexFreeze: 2
+  - Name: burned_king_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1000
+    indexFreeze: 0
+  - Name: burned_king_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 40
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1500
+    indexFreeze: 0
+  - Name: zombie_scroll_1
+    health: 100
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 1
+    indexFreeze: 0
+  - Name: zombie_scroll_2
+    health: 150
+    regeneration: 0
+    armor: 0
+    dpStrike: 15
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: zombie_scroll_3
+    health: 180
+    regeneration: 0
+    armor: 0
+    dpStrike: 20
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_scroll_4
+    health: 200
+    regeneration: 0
+    armor: 0
+    dpStrike: 25
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_scroll_5
+    health: 210
+    regeneration: 0
+    armor: 0
+    dpStrike: 30
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_scroll_6
+    health: 235
+    regeneration: 0
+    armor: 0
+    dpStrike: 35
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_scroll_7
+    health: 255
+    regeneration: 0
+    armor: 0
+    dpStrike: 40
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: zombie_scroll_8
+    health: 300
+    regeneration: 0
+    armor: 0
+    dpStrike: 45
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 0
+    resistanceAir: 0
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: miniBoss_zombie_fire
+    health: 400
+    regeneration: 0
+    armor: 0
+    dpStrike: 8
+    dpSpecialStrike: 0
+    attackSpeed: 1.6
+    radius: 0
+    speed: 8
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 10
+    resistanceAir: 0
+    resistanceWater: 20
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 45
+    vulnerabilityEarth: 0
+    gold: 25
+    indexFreeze: 0
+  - Name: zombie_fire_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 70
+    resistanceAir: 30
+    resistanceWater: 30
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 75
+    indexFreeze: 0
+  - Name: zombie_fire_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 70
+    resistanceAir: 30
+    resistanceWater: 30
+    resistanceEarth: 20
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 100
+    indexFreeze: 0
+  - Name: zombie_snapper_big_1
+    health: 450
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 0
+    attackSpeed: 0.4
+    radius: 0
+    speed: 15
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 25
+    resistanceAir: 25
+    resistanceWater: 0
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: zombie_snapper_big_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 10
+    resistanceWater: 30
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 4
+    indexFreeze: 0
+  - Name: zombie_snapper_big_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 30
+    resistanceAir: 10
+    resistanceWater: 30
+    resistanceEarth: 10
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: skeleton_swordsman_big_1
+    health: 900
+    regeneration: 0
+    armor: 0
+    dpStrike: 20
+    dpSpecialStrike: 0
+    attackSpeed: 1
+    radius: 0
+    speed: 12
+    specialSpeed: 19
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 25
+    resistanceAir: 25
+    resistanceWater: 30
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 25
+    gold: 3
+    indexFreeze: 0
+  - Name: skeleton_swordsman_big_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 60
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: skeleton_swordsman_big_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 60
+    resistanceWater: 0
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  - Name: skeleton_archer_big_1
+    health: 700
+    regeneration: 0
+    armor: 0
+    dpStrike: 10
+    dpSpecialStrike: 0
+    attackSpeed: 1.2
+    radius: 0
+    speed: 12
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 15
+    resistanceAir: 10
+    resistanceWater: 0
+    resistanceEarth: 30
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 10
+    vulnerabilityEarth: 0
+    gold: 3
+    indexFreeze: 0
+  - Name: skeleton_archer_big_2
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 60
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 6
+    indexFreeze: 0
+  - Name: skeleton_archer_big_3
+    health: 0
+    regeneration: 0
+    armor: 0
+    dpStrike: 0
+    dpSpecialStrike: 0
+    attackSpeed: 0
+    radius: 0
+    speed: 0
+    specialSpeed: 0
+    rangeDistanceMin: 0
+    rangeDistanceMax: 0
+    ability: 
+    metamorph: 0
+    metamorphName: 
+    resistanceFire: 20
+    resistanceAir: 60
+    resistanceWater: 20
+    resistanceEarth: 0
+    vulnerabilityFire: 0
+    vulnerabilityAir: 0
+    vulnerabilityWater: 0
+    vulnerabilityEarth: 0
+    gold: 9
+    indexFreeze: 0
+  potionsParams:
+  - name: Mana1
+    add_value: 100
+    upg_cost: 400
+    cost: 100
+  - name: Mana2
+    add_value: 115
+    upg_cost: 800
+    cost: 0
+  - name: Mana3
+    add_value: 135
+    upg_cost: 1600
+    cost: 0
+  - name: Mana4
+    add_value: 150
+    upg_cost: 3200
+    cost: 0
+  - name: Mana5
+    add_value: 170
+    upg_cost: 6400
+    cost: 0
+  - name: Mana6
+    add_value: 190
+    upg_cost: 12800
+    cost: 0
+  - name: Mana7
+    add_value: 210
+    upg_cost: 19200
+    cost: 0
+  - name: Mana8
+    add_value: 235
+    upg_cost: 25600
+    cost: 0
+  - name: Health1
+    add_value: 150
+    upg_cost: 800
+    cost: 150
+  - name: Health2
+    add_value: 170
+    upg_cost: 1600
+    cost: 0
+  - name: Health3
+    add_value: 190
+    upg_cost: 3200
+    cost: 0
+  - name: Health4
+    add_value: 210
+    upg_cost: 6400
+    cost: 0
+  - name: Health5
+    add_value: 235
+    upg_cost: 12800
+    cost: 0
+  - name: Health6
+    add_value: 265
+    upg_cost: 15000
+    cost: 0
+  - name: Health7
+    add_value: 300
+    upg_cost: 20000
+    cost: 0
+  - name: Health8
+    add_value: 350
+    upg_cost: 22500
+    cost: 0
+  - name: Power1
+    add_value: 200
+    upg_cost: 1500
+    cost: 250
+  - name: Power2
+    add_value: 230
+    upg_cost: 3000
+    cost: 0
+  - name: Power3
+    add_value: 260
+    upg_cost: 6000
+    cost: 0
+  - name: Power4
+    add_value: 300
+    upg_cost: 12000
+    cost: 0
+  - name: Power5
+    add_value: 350
+    upg_cost: 24000
+    cost: 0
+  - name: Power6
+    add_value: 400
+    upg_cost: 36000
+    cost: 0
+  - name: Power7
+    add_value: 450
+    upg_cost: 40000
+    cost: 0
+  - name: Power8
+    add_value: 500
+    upg_cost: 45000
+    cost: 0
+  characterUpgrades:
+  - Name: Knowledge1
+    Effect: Add mana
+    Value: 15
+    Radius: 0
+    Speed: 1.2
+    cost_open: 2500
+    upg_cost: 0
+  - Name: Knowledge2
+    Effect: Add mana
+    Value: 16
+    Radius: 0
+    Speed: 1.3
+    cost_open: 0
+    upg_cost: 1500
+  - Name: Knowledge3
+    Effect: Add mana
+    Value: 17
+    Radius: 0
+    Speed: 1.2
+    cost_open: 0
+    upg_cost: 3000
+  - Name: Knowledge4
+    Effect: Add mana
+    Value: 18
+    Radius: 0
+    Speed: 1.2
+    cost_open: 0
+    upg_cost: 6000
+  - Name: Knowledge5
+    Effect: Add mana
+    Value: 19
+    Radius: 0
+    Speed: 1.2
+    cost_open: 0
+    upg_cost: 12000
+  - Name: Knowledge6
+    Effect: Add mana
+    Value: 20
+    Radius: 0
+    Speed: 1.2
+    cost_open: 0
+    upg_cost: 18000
+  - Name: Knowledge7
+    Effect: Add mana
+    Value: 20
+    Radius: 0
+    Speed: 1.1
+    cost_open: 0
+    upg_cost: 21000
+  - Name: Knowledge8
+    Effect: Add mana
+    Value: 25
+    Radius: 0
+    Speed: 1.1
+    cost_open: 0
+    upg_cost: 25000
+  - Name: Fortification1
+    Effect: Add health
+    Value: 50
+    Radius: 0
+    Speed: 0
+    cost_open: 5000
+    upg_cost: 0
+  - Name: Fortification2
+    Effect: Add health
+    Value: 65
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 1200
+  - Name: Fortification3
+    Effect: Add health
+    Value: 70
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 2400
+  - Name: Fortification4
+    Effect: Add health
+    Value: 75
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 4800
+  - Name: Fortification5
+    Effect: Add health
+    Value: 80
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 9600
+  - Name: Fortification6
+    Effect: Add health
+    Value: 90
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 12500
+  - Name: Fortification7
+    Effect: Add health
+    Value: 100
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 15500
+  - Name: Fortification8
+    Effect: Add health
+    Value: 120
+    Radius: 0
+    Speed: 0
+    cost_open: 0
+    upg_cost: 20500
+  - Name: Fire Wall1
+    Effect: Deal fire damage
+    Value: 8
+    Radius: 1
+    Speed: 1.8
+    cost_open: 10000
+    upg_cost: 0
+  - Name: Fire Wall2
+    Effect: Deal fire damage
+    Value: 10
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 1500
+  - Name: Fire Wall3
+    Effect: Deal fire damage
+    Value: 12
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 3000
+  - Name: Fire Wall4
+    Effect: Deal fire damage
+    Value: 14
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 6000
+  - Name: Fire Wall5
+    Effect: Deal fire damage
+    Value: 16
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 12000
+  - Name: Fire Wall5
+    Effect: Deal fire damage
+    Value: 18
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 14000
+  - Name: Fire Wall5
+    Effect: Deal fire damage
+    Value: 20
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 17000
+  - Name: Fire Wall5
+    Effect: Deal fire damage
+    Value: 25
+    Radius: 1
+    Speed: 1.8
+    cost_open: 0
+    upg_cost: 19000
+  - Name: Micro Dragon1
+    Effect: Deal poison damage
+    Value: 40
+    Radius: 4
+    Speed: 5
+    cost_open: 10000
+    upg_cost: 0
+  - Name: Micro Dragon2
+    Effect: Deal poison damage
+    Value: 45
+    Radius: 5
+    Speed: 5
+    cost_open: 0
+    upg_cost: 2000
+  - Name: Micro Dragon3
+    Effect: Deal poison damage
+    Value: 55
+    Radius: 6
+    Speed: 5
+    cost_open: 0
+    upg_cost: 4000
+  - Name: Micro Dragon4
+    Effect: Deal poison damage
+    Value: 65
+    Radius: 7
+    Speed: 5
+    cost_open: 0
+    upg_cost: 8000
+  - Name: Micro Dragon5
+    Effect: Deal poison damage
+    Value: 85
+    Radius: 8
+    Speed: 5
+    cost_open: 0
+    upg_cost: 16000
+  - Name: Micro Dragon5
+    Effect: Deal poison damage
+    Value: 105
+    Radius: 8
+    Speed: 5
+    cost_open: 0
+    upg_cost: 18000
+  - Name: Micro Dragon5
+    Effect: Deal poison damage
+    Value: 130
+    Radius: 8
+    Speed: 5
+    cost_open: 0
+    upg_cost: 21000
+  - Name: Micro Dragon5
+    Effect: Deal poison damage
+    Value: 160
+    Radius: 8
+    Speed: 4
+    cost_open: 0
+    upg_cost: 23000
+  - Name: Micro DragonFrost1
+    Effect: Deal poison damage
+    Value: 25
+    Radius: 5
+    Speed: 5
+    cost_open: 15000
+    upg_cost: 0
+  - Name: Micro DragonFrost2
+    Effect: Deal poison damage
+    Value: 28
+    Radius: 6
+    Speed: 5
+    cost_open: 0
+    upg_cost: 2000
+  - Name: Micro DragonFrost3
+    Effect: Deal poison damage
+    Value: 35
+    Radius: 7
+    Speed: 5
+    cost_open: 0
+    upg_cost: 4000
+  - Name: Micro DragonFrost4
+    Effect: Deal poison damage
+    Value: 45
+    Radius: 8
+    Speed: 5
+    cost_open: 0
+    upg_cost: 8000
+  - Name: Micro DragonFrost5
+    Effect: Deal poison damage
+    Value: 55
+    Radius: 9
+    Speed: 5
+    cost_open: 0
+    upg_cost: 16000
+  - Name: Micro DragonFrost5
+    Effect: Deal poison damage
+    Value: 70
+    Radius: 9
+    Speed: 5
+    cost_open: 0
+    upg_cost: 18000
+  - Name: Micro DragonFrost5
+    Effect: Deal poison damage
+    Value: 90
+    Radius: 9
+    Speed: 5
+    cost_open: 0
+    upg_cost: 20000
+  - Name: Micro DragonFrost5
+    Effect: Deal poison damage
+    Value: 120
+    Radius: 9
+    Speed: 5
+    cost_open: 0
+    upg_cost: 23000
+  bottlesWinParams:
+  - level: 1
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 2
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 3
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 4
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 5
+    acid: 0
+    barrier: 2
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 6
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 7
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 8
+    acid: 0
+    barrier: 0
+    frozen: 1
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 1
+    ressurection: 0
+  - level: 9
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 10
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 11
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 12
+    acid: 3
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 2
+    health: 0
+    power: 1
+    ressurection: 0
+  - level: 13
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 14
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 15
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 5
+    health: 0
+    power: 1
+    ressurection: 1
+  - level: 16
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 17
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 18
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 19
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 20
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 21
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 2
+    hipno: 0
+    haste: 0
+    mana: 2
+    health: 0
+    power: 2
+    ressurection: 0
+  - level: 22
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 23
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 3
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 24
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 25
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 26
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 27
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 28
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 29
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 30
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 3
+    hipno: 0
+    haste: 0
+    mana: 3
+    health: 0
+    power: 0
+    ressurection: 1
+  - level: 31
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 32
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 33
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 34
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 35
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 36
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 37
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 38
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 39
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 40
+    acid: 3
+    barrier: 0
+    frozen: 1
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 2
+    ressurection: 0
+  - level: 41
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 42
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 43
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 44
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 45
+    acid: 0
+    barrier: 2
+    frozen: 0
+    mine: 3
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 1
+  - level: 46
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 47
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 48
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 49
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 50
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 51
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 52
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 53
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 54
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 55
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 56
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 57
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 58
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 59
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 60
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 61
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 62
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 63
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 64
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 65
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 66
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 67
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 68
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 69
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 70
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 2
+    hipno: 0
+    haste: 0
+    mana: 3
+    health: 0
+    power: 0
+    ressurection: 1
+  - level: 71
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 72
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 73
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 74
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 75
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 76
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 77
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 78
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 79
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 1
+  - level: 80
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 81
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 82
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 83
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 84
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 85
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 86
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 87
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 88
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 5
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 89
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 90
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 91
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 92
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 93
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 94
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 0
+    power: 0
+    ressurection: 0
+  - level: 95
+    acid: 0
+    barrier: 0
+    frozen: 0
+    mine: 0
+    hipno: 0
+    haste: 0
+    mana: 0
+    health: 3
+    power: 3
+    ressurection: 3
+  otherParams:
+  - name: bonus_word
+    value1: MAGIC
+    value2: 10000
+  - name: bonus_word
+    value1: BONUS
+    value2: 30000
+  - name: bonus_word
+    value1: SUPERPUPER
+    value2: 100000
+  - name: bonus_word
+    value1: NICE
+    value2: 50000
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  - name: 
+    value1: 
+    value2: 0
+  gemSellCostParams:
+  - value: 100
+  - value: 200
+  - value: 300
+  - value: 400
+  - value: 500
+  - value: 600
+  - value: 700
+  - value: 800
+  - value: 900
+  - value: 1000
+  - value: 100
+  - value: 200
+  - value: 300
+  - value: 400
+  - value: 500
+  - value: 600
+  - value: 700
+  - value: 800
+  - value: 900
+  - value: 1000
+  - value: 100
+  - value: 200
+  - value: 300
+  - value: 400
+  - value: 500
+  - value: 600
+  - value: 700
+  - value: 800
+  - value: 900
+  - value: 1000
+  - value: 100
+  - value: 200
+  - value: 300
+  - value: 400
+  - value: 500
+  - value: 600
+  - value: 700
+  - value: 800
+  - value: 900
+  - value: 1000

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 26f20f05b839c3a4092b357422729886
+timeCreated: 1506016383
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: .Helvetica NeueUI
+  fontNames:
+  - .Helvetica NeueUI
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

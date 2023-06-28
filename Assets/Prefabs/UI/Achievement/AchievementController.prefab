@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8935599499362386298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8935599499362386299}
+  - component: {fileID: 8935599499362386296}
+  m_Layer: 0
+  m_Name: AchievementController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8935599499362386299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935599499362386298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8935599499362386296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935599499362386298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfab791e5a14ff429c11e0c0eaa99a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - achievement: 0
+    keyName: t_0493
+    keyDescription: t_0536
+    idGPGS: CgkIj7XW1fQbEAIQAQ
+    idGameService: 
+    countToFinish: 1
+    award: 2400
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 1
+    keyName: t_0374
+    keyDescription: t_0375
+    idGPGS: CgkIj7XW1fQbEAIQFA
+    idGameService: 
+    countToFinish: 10
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 2
+    keyName: t_0370
+    keyDescription: t_0371
+    idGPGS: CgkIj7XW1fQbEAIQEg
+    idGameService: 
+    countToFinish: 5
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 3
+    keyName: t_0216
+    keyDescription: t_0217
+    idGPGS: CgkIj7XW1fQbEAIQCg
+    idGameService: 
+    countToFinish: 5
+    award: 7000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 4
+    keyName: t_0200
+    keyDescription: t_0201
+    idGPGS: CgkIj7XW1fQbEAIQAg
+    idGameService: 
+    countToFinish: 7
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 5
+    keyName: t_0388
+    keyDescription: t_0389
+    idGPGS: CgkIj7XW1fQbEAIQGw
+    idGameService: 
+    countToFinish: 300
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 6
+    keyName: t_0212
+    keyDescription: t_0213
+    idGPGS: CgkIj7XW1fQbEAIQCA
+    idGameService: 
+    countToFinish: 25
+    award: 2000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 7
+    keyName: t_0202
+    keyDescription: t_0203
+    idGPGS: CgkIj7XW1fQbEAIQAw
+    idGameService: 
+    countToFinish: 100000
+    award: 4000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 8
+    keyName: t_0222
+    keyDescription: t_0223
+    idGPGS: CgkIj7XW1fQbEAIQDQ
+    idGameService: 
+    countToFinish: 50
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 9
+    keyName: t_0204
+    keyDescription: t_0205
+    idGPGS: CgkIj7XW1fQbEAIQBA
+    idGameService: 
+    countToFinish: 100
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 10
+    keyName: t_0208
+    keyDescription: t_0209
+    idGPGS: CgkIj7XW1fQbEAIQBg
+    idGameService: 
+    countToFinish: 1000
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 11
+    keyName: t_0376
+    keyDescription: t_0377
+    idGPGS: CgkIj7XW1fQbEAIQFQ
+    idGameService: 
+    countToFinish: 1000
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 12
+    keyName: t_0206
+    keyDescription: t_0207
+    idGPGS: CgkIj7XW1fQbEAIQBQ
+    idGameService: 
+    countToFinish: 10
+    award: 2000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 13
+    keyName: t_0210
+    keyDescription: t_0211
+    idGPGS: CgkIj7XW1fQbEAIQBw
+    idGameService: 
+    countToFinish: 8
+    award: 3500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 14
+    keyName: t_0214
+    keyDescription: t_0215
+    idGPGS: CgkIj7XW1fQbEAIQCQ
+    idGameService: 
+    countToFinish: 20
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 15
+    keyName: t_0220
+    keyDescription: t_0221
+    idGPGS: CgkIj7XW1fQbEAIQDA
+    idGameService: 
+    countToFinish: 3
+    award: 5000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 16
+    keyName: t_0372
+    keyDescription: t_0373
+    idGPGS: CgkIj7XW1fQbEAIQEw
+    idGameService: 
+    countToFinish: 20
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 17
+    keyName: t_0378
+    keyDescription: t_0379
+    idGPGS: CgkIj7XW1fQbEAIQFg
+    idGameService: 
+    countToFinish: 1000
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 18
+    keyName: t_0689
+    keyDescription: t_0685
+    idGPGS: CgkIj7XW1fQbEAIQKA
+    idGameService: 
+    countToFinish: 1
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 19
+    keyName: t_0382
+    keyDescription: t_0383
+    idGPGS: CgkIj7XW1fQbEAIQGA
+    idGameService: 
+    countToFinish: 1000
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 20
+    keyName: t_0384
+    keyDescription: t_0385
+    idGPGS: CgkIj7XW1fQbEAIQGQ
+    idGameService: 
+    countToFinish: 100
+    award: 5000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 21
+    keyName: t_0386
+    keyDescription: t_0387
+    idGPGS: CgkIj7XW1fQbEAIQGg
+    idGameService: 
+    countToFinish: 300
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 22
+    keyName: t_0495
+    keyDescription: t_0535
+    idGPGS: CgkIj7XW1fQbEAIQJA
+    idGameService: 
+    countToFinish: 200
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 23
+    keyName: t_0404
+    keyDescription: t_0405
+    idGPGS: CgkIj7XW1fQbEAIQIw
+    idGameService: 
+    countToFinish: 100
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 24
+    keyName: t_0686
+    keyDescription: t_0685
+    idGPGS: CgkIj7XW1fQbEAIQJQ
+    idGameService: 
+    countToFinish: 1
+    award: 1500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 25
+    keyName: t_0688
+    keyDescription: t_0685
+    idGPGS: CgkIj7XW1fQbEAIQJw
+    idGameService: 
+    countToFinish: 1
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 26
+    keyName: t_0390
+    keyDescription: t_0391
+    idGPGS: CgkIj7XW1fQbEAIQHA
+    idGameService: 
+    countToFinish: 300
+    award: 2000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 27
+    keyName: t_0402
+    keyDescription: t_0403
+    idGPGS: CgkIj7XW1fQbEAIQIg
+    idGameService: 
+    countToFinish: 15
+    award: 7500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 28
+    keyName: t_0400
+    keyDescription: t_0401
+    idGPGS: CgkIj7XW1fQbEAIQIQ
+    idGameService: 
+    countToFinish: 5
+    award: 7500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 29
+    keyName: t_0398
+    keyDescription: t_0399
+    idGPGS: CgkIj7XW1fQbEAIQIA
+    idGameService: 
+    countToFinish: 5
+    award: 5000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 30
+    keyName: t_0396
+    keyDescription: t_0397
+    idGPGS: CgkIj7XW1fQbEAIQHw
+    idGameService: 
+    countToFinish: 30
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 31
+    keyName: t_0394
+    keyDescription: t_0395
+    idGPGS: CgkIj7XW1fQbEAIQHg
+    idGameService: 
+    countToFinish: 1
+    award: 5000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 32
+    keyName: t_0687
+    keyDescription: t_0685
+    idGPGS: CgkIj7XW1fQbEAIQJg
+    idGameService: 
+    countToFinish: 1
+    award: 2000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 33
+    keyName: t_0380
+    keyDescription: t_0381
+    idGPGS: CgkIj7XW1fQbEAIQFw
+    idGameService: 
+    countToFinish: 1000
+    award: 2500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 34
+    keyName: t_0690
+    keyDescription: t_0685
+    idGPGS: CgkIj7XW1fQbEAIQKQ
+    idGameService: 
+    countToFinish: 1
+    award: 3500
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  - achievement: 35
+    keyName: t_0392
+    keyDescription: t_0393
+    idGPGS: CgkIj7XW1fQbEAIQHQ
+    idGameService: 
+    countToFinish: 100
+    award: 3000
+    save:
+      achievement: 0
+      countMade: 0
+      viewed: 0
+      took: 0
+  sprites:
+  - {fileID: 21300000, guid: e5062ae98823b834da968dd7a3694d47, type: 3}
+  - {fileID: 21300000, guid: ea3ecd9089a93574999bd9dc1a3c0ce2, type: 3}
+  - {fileID: 21300000, guid: 863a45bfedd7fd64aac6604f342b7f59, type: 3}
+  - {fileID: 21300000, guid: cd2218a29f9f1a545ae135e20e90ee1a, type: 3}
+  - {fileID: 21300000, guid: 8e469688d4d90f4469ce2a578f94ec15, type: 3}
+  - {fileID: 21300000, guid: cf848e85336a64e43b067ece8eb4627b, type: 3}
+  - {fileID: 21300000, guid: 8f5344ce91792134a8988febe3cf5a27, type: 3}
+  - {fileID: 21300000, guid: fc2903e187088644c81864052ae26d7a, type: 3}
+  - {fileID: 21300000, guid: ba2fe588e3fa6174b989829ef11714a6, type: 3}
+  - {fileID: 21300000, guid: 795a60e4fdea19341bc96a455ead523c, type: 3}
+  - {fileID: 21300000, guid: d5b49840d395dcc498a2b14a190a4d78, type: 3}
+  - {fileID: 21300000, guid: 7a3341d06d88d7644ad250d86dd040fb, type: 3}
+  - {fileID: 21300000, guid: 9cb3ecf48f1a599459cee4a3673abd9a, type: 3}
+  - {fileID: 21300000, guid: bfc35a5cd1a891c49a08e5cd4961d7e9, type: 3}
+  - {fileID: 21300000, guid: 0d14562ec53349d4d944d227f970ac63, type: 3}
+  - {fileID: 21300000, guid: 40c39e76198bc79468e7854ef2f5bcf4, type: 3}
+  - {fileID: 21300000, guid: d626cdc1fba69484cb6fb05278d642dc, type: 3}
+  - {fileID: 21300000, guid: 20293e4bd2b529c46a601e1c75abacb3, type: 3}
+  - {fileID: 21300000, guid: 526abb0be69658b4c91842af5be4d547, type: 3}
+  - {fileID: 21300000, guid: c98a3bbf31c809e4b922f5d3b622e831, type: 3}
+  - {fileID: 21300000, guid: c22a22b6a17c0e64483986ac52b380c4, type: 3}
+  - {fileID: 21300000, guid: 139835a3b25d9674281e664cd252b600, type: 3}
+  - {fileID: 21300000, guid: 68fa506ed3998804a8e5165a87eb5731, type: 3}
+  - {fileID: 21300000, guid: e81e1f2b6e37c0e4a9954217fc95d142, type: 3}
+  - {fileID: 21300000, guid: 40817fd86fa13be4180af665ca8d5b70, type: 3}
+  - {fileID: 21300000, guid: 435ee3cc27e935e45acb6a0275ae07a5, type: 3}
+  - {fileID: 21300000, guid: 258ff95d681189b47820f1672ed49abb, type: 3}
+  - {fileID: 21300000, guid: ba3d0c0b33cd10f45b08d93ef676206d, type: 3}
+  - {fileID: 21300000, guid: 19144d9b8e068044b94d482273723ceb, type: 3}
+  - {fileID: 21300000, guid: 8214dc1085973d641921c80608a1551e, type: 3}
+  - {fileID: 21300000, guid: 27e3d62c7ff895c4f99d65125a63b300, type: 3}
+  - {fileID: 21300000, guid: 50123a4e562eb8e4ba5afb88452f84f7, type: 3}
+  - {fileID: 21300000, guid: fb1090c6fe30a634b9009db357a6c2af, type: 3}
+  - {fileID: 21300000, guid: e041f885b39312c4686bd3db745f1e2a, type: 3}
+  - {fileID: 21300000, guid: 8fc038d0f827b89448a4801110c17ae2, type: 3}
+  - {fileID: 21300000, guid: 3ef74dcb400686f418c8bb92d93cae47, type: 3}
+  - {fileID: 21300000, guid: 87f9c79ff0ce62f4fbb931d37b556458, type: 3}
+  - {fileID: 21300000, guid: 525f53dfab697ea4c93a7da7e28290ec, type: 3}
+  setEditor: 0
+  editorAchievement: 18
+  valueEditor: 1

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1896968172152782}
+  m_IsPrefabParent: 1
+--- !u!1 &1896968172152782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4424559195877358}
+  - component: {fileID: 114725678994993940}
+  m_Layer: 0
+  m_Name: DataHelperEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4424559195877358
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896968172152782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.178657, y: 1.3250301, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114725678994993940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896968172152782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da77139cd163be4dac8d7be769dfbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels: {fileID: 114183679798462508, guid: 2d45c492bacfff445ae3d9c075a9624f, type: 2}
+  _table:
+  - name: 1
+    minimal: 273
+    To: 0
+  - name: 10
+    minimal: 515
+    To: 0
+  - name: 11
+    minimal: 533
+    To: 0
+  - name: 12
+    minimal: 661
+    To: 0
+  - name: 13
+    minimal: 659
+    To: 0
+  - name: 14
+    minimal: 772
+    To: 0
+  - name: 15
+    minimal: 1184
+    To: 0
+  - name: 16
+    minimal: 536
+    To: 0
+  - name: 17
+    minimal: 575
+    To: 0
+  - name: 18
+    minimal: 543
+    To: 0
+  - name: 19
+    minimal: 612
+    To: 0
+  - name: 2
+    minimal: 342
+    To: 0
+  - name: 20
+    minimal: 713
+    To: 0
+  - name: 21
+    minimal: 525
+    To: 0
+  - name: 22
+    minimal: 857
+    To: 0
+  - name: 23
+    minimal: 720
+    To: 0
+  - name: 24
+    minimal: 1133
+    To: 0
+  - name: 25
+    minimal: 756
+    To: 0
+  - name: 26
+    minimal: 1240
+    To: 0
+  - name: 27
+    minimal: 717
+    To: 0
+  - name: 28
+    minimal: 967
+    To: 0
+  - name: 29
+    minimal: 1758
+    To: 0
+  - name: 3
+    minimal: 336
+    To: 0
+  - name: 30
+    minimal: 1714
+    To: 0
+  - name: 4
+    minimal: 374
+    To: 0
+  - name: 5
+    minimal: 441
+    To: 0
+  - name: 6
+    minimal: 538
+    To: 0
+  - name: 7
+    minimal: 519
+    To: 0
+  - name: 8
+    minimal: 494
+    To: 0
+  - name: 9
+    minimal: 465
+    To: 0
+  - name: monsters01
+    minimal: 115
+    To: 0
+  - name: monsters02
+    minimal: 538
+    To: 0
+  - name: monsters03
+    minimal: 819
+    To: 0
+  - name: monsters04
+    minimal: 151
+    To: 0

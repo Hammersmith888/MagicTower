@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: c0779077a2300214a806ecdf31174e00
+timeCreated: 1520244743
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Apr1
+    100002: Apr2
+    100004: //RootNode
+    100006: Hair1
+    100008: Hair2
+    100010: Head
+    100012: Hips
+    100014: Jaw
+    100016: LClavicle
+    100018: LFoot
+    100020: LForearm
+    100022: LHand
+    100024: LHp
+    100026: LShin
+    100028: LShoulder
+    100030: LShoulder_Gimbal
+    100032: LThigh
+    100034: LThigh_Gimbal
+    100036: LToe
+    100038: RClavicle
+    100040: RFoot
+    100042: RForearm
+    100044: RHand
+    100046: RHp
+    100048: Root
+    100050: RShin
+    100052: RShoulder
+    100054: RShoulder_Gimbal
+    100056: RThigh
+    100058: RThigh_Gimbal
+    100060: RToe
+    100062: Spine1
+    100064: Spine2
+    100066: Spine3
+    400000: Apr1
+    400002: Apr2
+    400004: //RootNode
+    400006: Hair1
+    400008: Hair2
+    400010: Head
+    400012: Hips
+    400014: Jaw
+    400016: LClavicle
+    400018: LFoot
+    400020: LForearm
+    400022: LHand
+    400024: LHp
+    400026: LShin
+    400028: LShoulder
+    400030: LShoulder_Gimbal
+    400032: LThigh
+    400034: LThigh_Gimbal
+    400036: LToe
+    400038: RClavicle
+    400040: RFoot
+    400042: RForearm
+    400044: RHand
+    400046: RHp
+    400048: Root
+    400050: RShin
+    400052: RShoulder
+    400054: RShoulder_Gimbal
+    400056: RThigh
+    400058: RThigh_Gimbal
+    400060: RToe
+    400062: Spine1
+    400064: Spine2
+    400066: Spine3
+    2100000: 123
+    2100002: Transp
+    4300000: Ghoul
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 80
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: f0d67a629cac1b64c97393650696bb56
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Apr1
+    100002: Apr2
+    100004: Bag1
+    100006: Bag2
+    100008: Bag3
+    100010: Bag4
+    100012: //RootNode
+    100014: Hair1
+    100016: Hair2
+    100018: Hair3
+    100020: Head
+    100022: Hips
+    100024: Jaw
+    100026: LClavicle
+    100028: LFoot
+    100030: LForearm
+    100032: LHand
+    100034: LHp
+    100036: LShin
+    100038: LShoulder
+    100040: LShoulder_Gimbal
+    100042: LThigh
+    100044: LThigh_Gimbal
+    100046: LToe
+    100048: Neck
+    100050: RClavicle
+    100052: RFoot
+    100054: RForearm
+    100056: RHand
+    100058: RHp
+    100060: Root
+    100062: RShin
+    100064: RShoulder
+    100066: RShoulder_Gimbal
+    100068: RThigh
+    100070: RThigh_Gimbal
+    100072: RToe
+    100074: Spine1
+    100076: Spine2
+    100078: Spine3
+    400000: Apr1
+    400002: Apr2
+    400004: Bag1
+    400006: Bag2
+    400008: Bag3
+    400010: Bag4
+    400012: //RootNode
+    400014: Hair1
+    400016: Hair2
+    400018: Hair3
+    400020: Head
+    400022: Hips
+    400024: Jaw
+    400026: LClavicle
+    400028: LFoot
+    400030: LForearm
+    400032: LHand
+    400034: LHp
+    400036: LShin
+    400038: LShoulder
+    400040: LShoulder_Gimbal
+    400042: LThigh
+    400044: LThigh_Gimbal
+    400046: LToe
+    400048: Neck
+    400050: RClavicle
+    400052: RFoot
+    400054: RForearm
+    400056: RHand
+    400058: RHp
+    400060: Root
+    400062: RShin
+    400064: RShoulder
+    400066: RShoulder_Gimbal
+    400068: RThigh
+    400070: RThigh_Gimbal
+    400072: RToe
+    400074: Spine1
+    400076: Spine2
+    400078: Spine3
+    2100000: 1233
+    2100002: Transp
+    4300000: Ghoul_Boss
+    9500000: //RootNode
+    13700000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1233
+    second: {fileID: 2100000, guid: 797f9e1a923c3e7458dd42895dc587ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transp
+    second: {fileID: 2100000, guid: 797f9e1a923c3e7458dd42895dc587ee, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Root/Hips/Spine1/Spine2/Spine3/RClavicle/RShoulder_Gimbal/RShoulder/RForearm/RHand
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 80
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

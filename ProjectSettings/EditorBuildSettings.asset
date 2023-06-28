@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/InitializationCrashTest.unity
+    guid: a62298f6dbecad640a29d7d212c6135d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Splash.unity
+    guid: 2d633579c84f2f349900173806ad0dbd
+  - enabled: 1
+    path: Assets/Scenes/Levels/Menu.unity
+    guid: 2b75d6bedc1335d4685277d8b4272fdd
+  - enabled: 1
+    path: Assets/Scenes/Levels/Shop.unity
+    guid: e5fc7443812ef1b4e9568ec7d9c50711
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_1_Tutorial.unity
+    guid: f9e1b40a1ceb31f4cba4835d1235fdaa
+  - enabled: 1
+    path: Assets/Scenes/Levels/Map.unity
+    guid: 6384d54dbd2067044bd687030150bbad
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 86a72ed5cf8d33249983589c4a4121e5
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: cd003e4bf6274a747bc74e8430b2bcf5
+  - enabled: 0
+    path: Assets/Scenes/LevelEditor.unity
+    guid: 048237841e69e4142a8f3fbe6b0009b8
+  - enabled: 0
+    path: Assets/Scenes/MenuEditor.unity
+    guid: 51082ce97a7e1104483b5b4fc9a7f154
+  - enabled: 0
+    path: Assets/Scenes/ShopEditor.unity
+    guid: 253455b16182175458b75d2423e0d629
+  - enabled: 1
+    path: Assets/Scenes/loading.unity
+    guid: 64adfe9da4614384ea606a1b98c9f551
+  m_configObjects: {}
